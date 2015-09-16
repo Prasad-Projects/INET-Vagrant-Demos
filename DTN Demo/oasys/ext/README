@@ -1,4 +1,0 @@
-External include files needed to build oasys and oasys-derived applications.
-
-Unlike the oasys include files (which should be prefixed with oasys/)
-this directory must be included in the -I path to the compiler.
