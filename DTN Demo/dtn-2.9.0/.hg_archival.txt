@@ -1,0 +1,5 @@
+repo: 69f042f8531e890131b338c8dd313cb9bf6babdc
+node: 8dfa4e46024750b855f6f405b00c8556a19d7609
+branch: default
+latesttag: dtn-2.9.0
+latesttagdistance: 1
