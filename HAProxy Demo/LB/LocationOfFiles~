@@ -1,0 +1,5 @@
+rsyslog - /etc/rsyslog.conf | sudo service rsyslog restart
+haproxy - /etc/default/haproxy
+haproxy.cfg - /etc/haproxy/haproxy.cfg
+
+syslog - /var/log/syslog

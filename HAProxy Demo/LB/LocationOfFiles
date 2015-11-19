@@ -1,0 +1,7 @@
+Files to Insert
+rsyslog - /etc/rsyslog.conf | sudo service rsyslog restart
+haproxy - /etc/default/haproxy
+haproxy.cfg - /etc/haproxy/haproxy.cfg
+
+Files to export
+syslog - /var/log/syslog

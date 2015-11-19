@@ -1,0 +1,1561 @@
+Sep 14 06:02:30 precise64 kernel: imklog 5.8.6, log source = /proc/kmsg started.
+Sep 14 06:02:30 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="520" x-info="http://www.rsyslog.com"] start
+Sep 14 06:02:30 precise64 rsyslogd: rsyslogd's groupid changed to 103
+Sep 14 06:02:30 precise64 rsyslogd: rsyslogd's userid changed to 101
+Sep 14 06:02:30 precise64 rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Initializing cgroup subsys cpu
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Linux version 3.2.0-23-generic (buildd@crested) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu4) ) #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012 (Ubuntu 3.2.0-23.36-generic 3.2.14)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Sep 14 06:02:30 precise64 kernel: [    0.000000] KERNEL supported cpus:
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   Intel GenuineIntel
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   AMD AuthenticAMD
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   Centaur CentaurHauls
+Sep 14 06:02:30 precise64 kernel: [    0.000000] BIOS-provided physical RAM map:
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 0000000017ff0000 (usable)
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 0000000017ff0000 - 0000000018000000 (ACPI data)
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] NX (Execute Disable) protection: active
+Sep 14 06:02:30 precise64 kernel: [    0.000000] DMI 2.5 present.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Sep 14 06:02:30 precise64 kernel: [    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] No AGP bridge found
+Sep 14 06:02:30 precise64 kernel: [    0.000000] last_pfn = 0x17ff0 max_arch_pfn = 0x400000000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] MTRR default type: uncachable
+Sep 14 06:02:30 precise64 kernel: [    0.000000] MTRR variable ranges disabled:
+Sep 14 06:02:30 precise64 kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Sep 14 06:02:30 precise64 kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] found SMP MP-table at [ffff88000009fff0] 9fff0
+Sep 14 06:02:30 precise64 kernel: [    0.000000] initial memory mapped : 0 - 20000000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Base memory trampoline at [ffff88000009a000] 9a000 size 20480
+Sep 14 06:02:30 precise64 kernel: [    0.000000] init_memory_mapping: 0000000000000000-0000000017ff0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  0000000000 - 0017e00000 page 2M
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  0017e00000 - 0017ff0000 page 4k
+Sep 14 06:02:30 precise64 kernel: [    0.000000] kernel direct mapping tables up to 17ff0000 @ 17fed000-17ff0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] RAMDISK: 166b0000 - 174bd000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: XSDT 0000000017ff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: FACP 0000000017ff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: DSDT 0000000017ff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: FACS 0000000017ff0200 00040
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: APIC 0000000017ff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: SSDT 0000000017ff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] No NUMA configuration found
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Faking a node at 0000000000000000-0000000017ff0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Initmem setup node 0 0000000000000000-0000000017ff0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   NODE_DATA [0000000017fe8000 - 0000000017fecfff]
+Sep 14 06:02:30 precise64 kernel: [    0.000000]  [ffffea0000000000-ffffea00005fffff] PMD -> [ffff880016000000-ffff8800165fffff] on node 0
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Zone PFN ranges:
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA      0x00000010 -> 0x00001000
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA32    0x00001000 -> 0x00100000
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   Normal   empty
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Movable zone start PFN for each node
+Sep 14 06:02:30 precise64 kernel: [    0.000000] early_node_map[2] active PFN ranges
+Sep 14 06:02:30 precise64 kernel: [    0.000000]     0: 0x00000010 -> 0x0000009f
+Sep 14 06:02:30 precise64 kernel: [    0.000000]     0: 0x00000100 -> 0x00017ff0
+Sep 14 06:02:30 precise64 kernel: [    0.000000] On node 0 totalpages: 98175
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA zone: 5 pages reserved
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA zone: 3914 pages, LIFO batch:0
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA32 zone: 1472 pages used for memmap
+Sep 14 06:02:30 precise64 kernel: [    0.000000]   DMA32 zone: 92720 pages, LIFO batch:31
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Sep 14 06:02:30 precise64 kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: IRQ2 used by override.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Sep 14 06:02:30 precise64 kernel: [    0.000000] SMP: Allowing 2 CPUs, 0 hotplug CPUs
+Sep 14 06:02:30 precise64 kernel: [    0.000000] nr_irqs_gsi: 40
+Sep 14 06:02:30 precise64 kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Allocating PCI resources starting at 18000000 (gap: 18000000:e7fc0000)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Sep 14 06:02:30 precise64 kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Sep 14 06:02:30 precise64 kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff880017c00000 s83072 r8192 d23424 u1048576
+Sep 14 06:02:30 precise64 kernel: [    0.000000] pcpu-alloc: s83072 r8192 d23424 u1048576 alloc=1*2097152
+Sep 14 06:02:30 precise64 kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 96634
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Policy zone: DMA32
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Sep 14 06:02:30 precise64 kernel: [    0.000000] PID hash table entries: 2048 (order: 2, 16384 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Checking aperture...
+Sep 14 06:02:30 precise64 kernel: [    0.000000] No AGP bridge found
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Memory: 356144k/393152k available (6566k kernel code, 452k absent, 36556k reserved, 6637k data, 920k init)
+Sep 14 06:02:30 precise64 kernel: [    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Hierarchical RCU implementation.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Sep 14 06:02:30 precise64 kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Console: colour dummy device 80x25
+Sep 14 06:02:30 precise64 kernel: [    0.000000] console [tty0] enabled
+Sep 14 06:02:30 precise64 kernel: [    0.000000] allocated 3145728 bytes of page_cgroup
+Sep 14 06:02:30 precise64 kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Fast TSC calibration using PIT
+Sep 14 06:02:30 precise64 kernel: [    0.000000] Detected 1687.809 MHz processor.
+Sep 14 06:02:30 precise64 kernel: [    0.004003] Calibrating delay loop (skipped), value calculated using timer frequency.. 3375.61 BogoMIPS (lpj=6751236)
+Sep 14 06:02:30 precise64 kernel: [    0.004007] pid_max: default: 32768 minimum: 301
+Sep 14 06:02:30 precise64 kernel: [    0.004032] Security Framework initialized
+Sep 14 06:02:30 precise64 kernel: [    0.004049] AppArmor: AppArmor initialized
+Sep 14 06:02:30 precise64 kernel: [    0.004051] Yama: becoming mindful.
+Sep 14 06:02:30 precise64 kernel: [    0.004129] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.004245] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.004294] Mount-cache hash table entries: 256
+Sep 14 06:02:30 precise64 kernel: [    0.004395] Initializing cgroup subsys cpuacct
+Sep 14 06:02:30 precise64 kernel: [    0.004398] Initializing cgroup subsys memory
+Sep 14 06:02:30 precise64 kernel: [    0.004404] Initializing cgroup subsys devices
+Sep 14 06:02:30 precise64 kernel: [    0.004406] Initializing cgroup subsys freezer
+Sep 14 06:02:30 precise64 kernel: [    0.004408] Initializing cgroup subsys blkio
+Sep 14 06:02:30 precise64 kernel: [    0.004412] Initializing cgroup subsys perf_event
+Sep 14 06:02:30 precise64 kernel: [    0.004553] CPU: Physical Processor ID: 0
+Sep 14 06:02:30 precise64 kernel: [    0.004557] CPU: Processor Core ID: 0
+Sep 14 06:02:30 precise64 kernel: [    0.004565] mce: CPU supports 0 MCE banks
+Sep 14 06:02:30 precise64 kernel: [    0.027157] ACPI: Core revision 20110623
+Sep 14 06:02:30 precise64 kernel: [    0.028049] ftrace: allocating 27049 entries in 107 pages
+Sep 14 06:02:30 precise64 kernel: [    0.040472] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep 14 06:02:30 precise64 kernel: [    0.082782] CPU0: Intel(R) Core(TM) i5-2557M CPU @ 1.70GHz stepping 07
+Sep 14 06:02:30 precise64 kernel: [    0.084004] Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Sep 14 06:02:30 precise64 kernel: [    0.084004] NMI watchdog disabled (cpu0): hardware events not enabled
+Sep 14 06:02:30 precise64 kernel: [    0.084004] Booting Node   0, Processors  #1 Ok.
+Sep 14 06:02:30 precise64 kernel: [    0.084004] smpboot cpu 1: start_ip = 9a000
+Sep 14 06:02:30 precise64 kernel: [    0.008000] mce: CPU supports 0 MCE banks
+Sep 14 06:02:30 precise64 kernel: [    0.176010] TSC synchronization [CPU#0 -> CPU#1]:
+Sep 14 06:02:30 precise64 kernel: [    0.176010] Measured 699651 cycles TSC warp between CPUs, turning off TSC clock.
+Sep 14 06:02:30 precise64 kernel: [    0.176010] Marking TSC unstable due to check_tsc_sync_source failed
+Sep 14 06:02:30 precise64 kernel: [    0.176054] NMI watchdog disabled (cpu1): hardware events not enabled
+Sep 14 06:02:30 precise64 kernel: [    0.176117] Brought up 2 CPUs
+Sep 14 06:02:30 precise64 kernel: [    0.176119] Total of 2 processors activated (6759.61 BogoMIPS).
+Sep 14 06:02:30 precise64 kernel: [    0.176765] devtmpfs: initialized
+Sep 14 06:02:30 precise64 kernel: [    0.176765] EVM: security.selinux
+Sep 14 06:02:30 precise64 kernel: [    0.176765] EVM: security.SMACK64
+Sep 14 06:02:30 precise64 kernel: [    0.176765] EVM: security.capability
+Sep 14 06:02:30 precise64 kernel: [    0.176857] print_constraints: dummy: 
+Sep 14 06:02:30 precise64 kernel: [    0.176918] RTC time:  6:02:27, date: 09/14/12
+Sep 14 06:02:30 precise64 kernel: [    0.176949] NET: Registered protocol family 16
+Sep 14 06:02:30 precise64 kernel: [    0.177152] ACPI: bus type pci registered
+Sep 14 06:02:30 precise64 kernel: [    0.177075] Trying to unpack rootfs image as initramfs...
+Sep 14 06:02:30 precise64 kernel: [    0.177278] PCI: Using configuration type 1 for base access
+Sep 14 06:02:30 precise64 kernel: [    0.178017] bio: create slab <bio-0> at 0
+Sep 14 06:02:30 precise64 kernel: [    0.180068] ACPI: Added _OSI(Module Device)
+Sep 14 06:02:30 precise64 kernel: [    0.180070] ACPI: Added _OSI(Processor Device)
+Sep 14 06:02:30 precise64 kernel: [    0.180072] ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 14 06:02:30 precise64 kernel: [    0.180073] ACPI: Added _OSI(Processor Aggregator Device)
+Sep 14 06:02:30 precise64 kernel: [    0.180525] ACPI: EC: Look up EC in DSDT
+Sep 14 06:02:30 precise64 kernel: [    0.180854] ACPI: Executed 1 blocks of module-level executable AML code
+Sep 14 06:02:30 precise64 kernel: [    0.183815] ACPI: Interpreter enabled
+Sep 14 06:02:30 precise64 kernel: [    0.183821] ACPI: (supports S0 S5)
+Sep 14 06:02:30 precise64 kernel: [    0.183837] ACPI: Using IOAPIC for interrupt routing
+Sep 14 06:02:30 precise64 kernel: [    0.187254] ACPI: No dock devices found.
+Sep 14 06:02:30 precise64 kernel: [    0.187263] HEST: Table not found.
+Sep 14 06:02:30 precise64 kernel: [    0.187272] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Sep 14 06:02:30 precise64 kernel: [    0.187341] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 14 06:02:30 precise64 kernel: [    0.187530] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Sep 14 06:02:30 precise64 kernel: [    0.187534] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Sep 14 06:02:30 precise64 kernel: [    0.187537] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Sep 14 06:02:30 precise64 kernel: [    0.187541] pci_root PNP0A03:00: host bridge window [mem 0x18000000-0xffdfffff] (ignored)
+Sep 14 06:02:30 precise64 kernel: [    0.187620] pci 0000:00:00.0: [8086:1237] type 0 class 0x000600
+Sep 14 06:02:30 precise64 kernel: [    0.188484] pci 0000:00:01.0: [8086:7000] type 0 class 0x000601
+Sep 14 06:02:30 precise64 kernel: [    0.189247] pci 0000:00:01.1: [8086:7111] type 0 class 0x000101
+Sep 14 06:02:30 precise64 kernel: [    0.189806] pci 0000:00:01.1: reg 20: [io  0xd000-0xd00f]
+Sep 14 06:02:30 precise64 kernel: [    0.190212] pci 0000:00:02.0: [80ee:beef] type 0 class 0x000300
+Sep 14 06:02:30 precise64 kernel: [    0.191075] pci 0000:00:02.0: reg 10: [mem 0xe0000000-0xe07fffff pref]
+Sep 14 06:02:30 precise64 kernel: [    0.195384] pci 0000:00:03.0: [8086:100e] type 0 class 0x000200
+Sep 14 06:02:30 precise64 kernel: [    0.195863] pci 0000:00:03.0: reg 10: [mem 0xf0000000-0xf001ffff]
+Sep 14 06:02:30 precise64 kernel: [    0.196694] pci 0000:00:03.0: reg 18: [io  0xd010-0xd017]
+Sep 14 06:02:30 precise64 kernel: [    0.198748] pci 0000:00:04.0: [80ee:cafe] type 0 class 0x000880
+Sep 14 06:02:30 precise64 kernel: [    0.199201] pci 0000:00:04.0: reg 10: [io  0xd020-0xd03f]
+Sep 14 06:02:30 precise64 kernel: [    0.199709] pci 0000:00:04.0: reg 14: [mem 0xf0400000-0xf07fffff]
+Sep 14 06:02:30 precise64 kernel: [    0.200192] pci 0000:00:04.0: reg 18: [mem 0xf0800000-0xf0803fff pref]
+Sep 14 06:02:30 precise64 kernel: [    0.201835] pci 0000:00:07.0: [8086:7113] type 0 class 0x000680
+Sep 14 06:02:30 precise64 kernel: [    0.203087] pci 0000:00:0d.0: [8086:2829] type 0 class 0x000106
+Sep 14 06:02:30 precise64 kernel: [    0.203586] pci 0000:00:0d.0: reg 10: [io  0xd040-0xd047]
+Sep 14 06:02:30 precise64 kernel: [    0.204742] pci 0000:00:0d.0: reg 18: [io  0xd050-0xd057]
+Sep 14 06:02:30 precise64 kernel: [    0.205569] pci 0000:00:0d.0: reg 20: [io  0xd060-0xd06f]
+Sep 14 06:02:30 precise64 kernel: [    0.206037] pci 0000:00:0d.0: reg 24: [mem 0xf0804000-0xf0805fff]
+Sep 14 06:02:30 precise64 kernel: [    0.207159] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Sep 14 06:02:30 precise64 kernel: [    0.207835]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x1e)
+Sep 14 06:02:30 precise64 kernel: [    0.215222] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 9 10 11)
+Sep 14 06:02:30 precise64 kernel: [    0.215471] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Sep 14 06:02:30 precise64 kernel: [    0.216130] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Sep 14 06:02:30 precise64 kernel: [    0.216222] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Sep 14 06:02:30 precise64 kernel: [    0.216425] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Sep 14 06:02:30 precise64 kernel: [    0.216430] vgaarb: loaded
+Sep 14 06:02:30 precise64 kernel: [    0.216431] vgaarb: bridge control possible 0000:00:02.0
+Sep 14 06:02:30 precise64 kernel: [    0.216534] i2c-core: driver [aat2870] using legacy suspend method
+Sep 14 06:02:30 precise64 kernel: [    0.216536] i2c-core: driver [aat2870] using legacy resume method
+Sep 14 06:02:30 precise64 kernel: [    0.216613] SCSI subsystem initialized
+Sep 14 06:02:30 precise64 kernel: [    0.220064] libata version 3.00 loaded.
+Sep 14 06:02:30 precise64 kernel: [    0.220132] usbcore: registered new interface driver usbfs
+Sep 14 06:02:30 precise64 kernel: [    0.220142] usbcore: registered new interface driver hub
+Sep 14 06:02:30 precise64 kernel: [    0.220171] usbcore: registered new device driver usb
+Sep 14 06:02:30 precise64 kernel: [    0.220214] PCI: Using ACPI for IRQ routing
+Sep 14 06:02:30 precise64 kernel: [    0.220214] PCI: pci_cache_line_size set to 64 bytes
+Sep 14 06:02:30 precise64 kernel: [    0.220478] reserve RAM buffer: 000000000009fc00 - 000000000009ffff 
+Sep 14 06:02:30 precise64 kernel: [    0.220488] reserve RAM buffer: 0000000017ff0000 - 0000000017ffffff 
+Sep 14 06:02:30 precise64 kernel: [    0.220650] NetLabel: Initializing
+Sep 14 06:02:30 precise64 kernel: [    0.220652] NetLabel:  domain hash size = 128
+Sep 14 06:02:30 precise64 kernel: [    0.220654] NetLabel:  protocols = UNLABELED CIPSOv4
+Sep 14 06:02:30 precise64 kernel: [    0.220668] NetLabel:  unlabeled traffic allowed by default
+Sep 14 06:02:30 precise64 kernel: [    0.227196] AppArmor: AppArmor Filesystem Enabled
+Sep 14 06:02:30 precise64 kernel: [    0.227235] pnp: PnP ACPI init
+Sep 14 06:02:30 precise64 kernel: [    0.227263] ACPI: bus type pnp registered
+Sep 14 06:02:30 precise64 kernel: [    0.227395] pnp 00:00: [bus 00-ff]
+Sep 14 06:02:30 precise64 kernel: [    0.227397] pnp 00:00: [io  0x0cf8-0x0cff]
+Sep 14 06:02:30 precise64 kernel: [    0.227399] pnp 00:00: [io  0x0000-0x0cf7 window]
+Sep 14 06:02:30 precise64 kernel: [    0.227401] pnp 00:00: [io  0x0d00-0xffff window]
+Sep 14 06:02:30 precise64 kernel: [    0.227403] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+Sep 14 06:02:30 precise64 kernel: [    0.227405] pnp 00:00: [mem 0x18000000-0xffdfffff window]
+Sep 14 06:02:30 precise64 kernel: [    0.227441] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+Sep 14 06:02:30 precise64 kernel: [    0.227457] pnp 00:01: [io  0x0060]
+Sep 14 06:02:30 precise64 kernel: [    0.227459] pnp 00:01: [io  0x0064]
+Sep 14 06:02:30 precise64 kernel: [    0.227496] pnp 00:01: [irq 1]
+Sep 14 06:02:30 precise64 kernel: [    0.227516] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Sep 14 06:02:30 precise64 kernel: [    0.227525] pnp 00:02: [io  0x0000-0x000f]
+Sep 14 06:02:30 precise64 kernel: [    0.227526] pnp 00:02: [io  0x0080-0x008f]
+Sep 14 06:02:30 precise64 kernel: [    0.227530] pnp 00:02: [io  0x00c0-0x00df]
+Sep 14 06:02:30 precise64 kernel: [    0.227531] pnp 00:02: [dma 4]
+Sep 14 06:02:30 precise64 kernel: [    0.227550] pnp 00:02: Plug and Play ACPI device, IDs PNP0200 (active)
+Sep 14 06:02:30 precise64 kernel: [    0.227620] pnp 00:03: [irq 12]
+Sep 14 06:02:30 precise64 kernel: [    0.227641] pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 (active)
+Sep 14 06:02:30 precise64 kernel: [    0.227654] pnp 00:04: [io  0x0378-0x037f]
+Sep 14 06:02:30 precise64 kernel: [    0.227656] pnp 00:04: [io  0x0778-0x077f]
+Sep 14 06:02:30 precise64 kernel: [    0.227680] pnp 00:04: [irq 7]
+Sep 14 06:02:30 precise64 kernel: [    0.227698] pnp 00:04: Plug and Play ACPI device, IDs PNP0400 (active)
+Sep 14 06:02:30 precise64 kernel: [    0.232949] pnp: PnP ACPI: found 5 devices
+Sep 14 06:02:30 precise64 kernel: [    0.232952] ACPI: ACPI bus type pnp unregistered
+Sep 14 06:02:30 precise64 kernel: [    0.239665] Switching to clocksource acpi_pm
+Sep 14 06:02:30 precise64 kernel: [    0.240014] PCI: max bus depth: 0 pci_try_num: 1
+Sep 14 06:02:30 precise64 kernel: [    0.240014] pci_bus 0000:00: resource 0 [io  0x0000-0xffff]
+Sep 14 06:02:30 precise64 kernel: [    0.240014] pci_bus 0000:00: resource 1 [mem 0x00000000-0xfffffffff]
+Sep 14 06:02:30 precise64 kernel: [    0.240014] NET: Registered protocol family 2
+Sep 14 06:02:30 precise64 kernel: [    0.240014] IP route cache hash table entries: 4096 (order: 3, 32768 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] TCP: Hash tables configured (established 16384 bind 16384)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] TCP reno registered
+Sep 14 06:02:30 precise64 kernel: [    0.240014] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.240014] NET: Registered protocol family 1
+Sep 14 06:02:30 precise64 kernel: [    0.240014] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Sep 14 06:02:30 precise64 kernel: [    0.240308] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Sep 14 06:02:30 precise64 kernel: [    0.240308] pci 0000:00:02.0: Boot video device
+Sep 14 06:02:30 precise64 kernel: [    0.240308] PCI: CLS 0 bytes, default 64
+Sep 14 06:02:30 precise64 kernel: [    0.240412] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Sep 14 06:02:30 precise64 kernel: [    0.240908] audit: initializing netlink socket (disabled)
+Sep 14 06:02:30 precise64 kernel: [    0.240931] type=2000 audit(1347602547.240:1): initialized
+Sep 14 06:02:30 precise64 kernel: [    0.266453] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Sep 14 06:02:30 precise64 kernel: [    0.268003] VFS: Disk quotas dquot_6.5.2
+Sep 14 06:02:30 precise64 kernel: [    0.268053] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Sep 14 06:02:30 precise64 kernel: [    0.269074] fuse init (API version 7.17)
+Sep 14 06:02:30 precise64 kernel: [    0.269239] msgmni has been set to 695
+Sep 14 06:02:30 precise64 kernel: [    0.270028] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Sep 14 06:02:30 precise64 kernel: [    0.270105] io scheduler noop registered
+Sep 14 06:02:30 precise64 kernel: [    0.270110] io scheduler deadline registered
+Sep 14 06:02:30 precise64 kernel: [    0.270145] io scheduler cfq registered (default)
+Sep 14 06:02:30 precise64 kernel: [    0.270255] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Sep 14 06:02:30 precise64 kernel: [    0.270279] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Sep 14 06:02:30 precise64 kernel: [    0.270932] ACPI: Deprecated procfs I/F for AC is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Sep 14 06:02:30 precise64 kernel: [    0.271465] ACPI: AC Adapter [AC] (on-line)
+Sep 14 06:02:30 precise64 kernel: [    0.271528] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Sep 14 06:02:30 precise64 kernel: [    0.271533] ACPI: Power Button [PWRF]
+Sep 14 06:02:30 precise64 kernel: [    0.271639] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Sep 14 06:02:30 precise64 kernel: [    0.271642] ACPI: Sleep Button [SLPF]
+Sep 14 06:02:30 precise64 kernel: [    0.273470] ACPI: Deprecated procfs I/F for battery is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Sep 14 06:02:30 precise64 kernel: [    0.273506] ACPI: Battery Slot [BAT0] (battery present)
+Sep 14 06:02:30 precise64 kernel: [    0.273523] ERST: Table is not found!
+Sep 14 06:02:30 precise64 kernel: [    0.273524] GHES: HEST is not enabled!
+Sep 14 06:02:30 precise64 kernel: [    0.275120] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Sep 14 06:02:30 precise64 kernel: [    0.277422] ACPI: Battery Slot [BAT0] (battery present)
+Sep 14 06:02:30 precise64 kernel: [    0.459744] Freeing initrd memory: 14388k freed
+Sep 14 06:02:30 precise64 kernel: [    0.509129] Linux agpgart interface v0.103
+Sep 14 06:02:30 precise64 kernel: [    0.513988] brd: module loaded
+Sep 14 06:02:30 precise64 kernel: [    0.515763] loop: module loaded
+Sep 14 06:02:30 precise64 kernel: [    0.515892] ahci 0000:00:0d.0: version 3.0
+Sep 14 06:02:30 precise64 kernel: [    0.515961] ahci 0000:00:0d.0: PCI INT A -> GSI 21 (level, low) -> IRQ 21
+Sep 14 06:02:30 precise64 kernel: [    0.516166] ahci: SSS flag set, parallel bus scan disabled
+Sep 14 06:02:30 precise64 kernel: [    0.516392] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Sep 14 06:02:30 precise64 kernel: [    0.516395] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Sep 14 06:02:30 precise64 kernel: [    0.517027] scsi0 : ahci
+Sep 14 06:02:30 precise64 kernel: [    0.517108] ata1: SATA max UDMA/133 abar m8192@0xf0804000 port 0xf0804100 irq 21
+Sep 14 06:02:30 precise64 kernel: [    0.517149] ata_piix 0000:00:01.1: version 2.13
+Sep 14 06:02:30 precise64 kernel: [    0.517908] scsi1 : ata_piix
+Sep 14 06:02:30 precise64 kernel: [    0.518240] scsi2 : ata_piix
+Sep 14 06:02:30 precise64 kernel: [    0.518290] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Sep 14 06:02:30 precise64 kernel: [    0.518292] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Sep 14 06:02:30 precise64 kernel: [    0.518754] Fixed MDIO Bus: probed
+Sep 14 06:02:30 precise64 kernel: [    0.518778] tun: Universal TUN/TAP device driver, 1.6
+Sep 14 06:02:30 precise64 kernel: [    0.518779] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Sep 14 06:02:30 precise64 kernel: [    0.518857] PPP generic driver version 2.4.2
+Sep 14 06:02:30 precise64 kernel: [    0.519078] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Sep 14 06:02:30 precise64 kernel: [    0.519094] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Sep 14 06:02:30 precise64 kernel: [    0.519103] uhci_hcd: USB Universal Host Controller Interface driver
+Sep 14 06:02:30 precise64 kernel: [    0.519135] usbcore: registered new interface driver libusual
+Sep 14 06:02:30 precise64 kernel: [    0.519171] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Sep 14 06:02:30 precise64 kernel: [    0.672655] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 14 06:02:30 precise64 kernel: [    0.673214] ata2.00: configured for UDMA/33
+Sep 14 06:02:30 precise64 kernel: [    0.673790] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 14 06:02:30 precise64 kernel: [    0.674325] ata3.00: configured for UDMA/33
+Sep 14 06:02:30 precise64 kernel: [    1.065700] serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep 14 06:02:30 precise64 kernel: [    1.065710] serio: i8042 AUX port at 0x60,0x64 irq 12
+Sep 14 06:02:30 precise64 kernel: [    1.066149] mousedev: PS/2 mouse device common for all mice
+Sep 14 06:02:30 precise64 kernel: [    1.066895] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Sep 14 06:02:30 precise64 kernel: [    1.067681] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Sep 14 06:02:30 precise64 kernel: [    1.067770] rtc0: alarms up to one day, 114 bytes nvram
+Sep 14 06:02:30 precise64 kernel: [    1.067856] device-mapper: uevent: version 1.0.3
+Sep 14 06:02:30 precise64 kernel: [    1.068176] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Sep 14 06:02:30 precise64 kernel: [    1.068176] cpuidle: using governor ladder
+Sep 14 06:02:30 precise64 kernel: [    1.068176] cpuidle: using governor menu
+Sep 14 06:02:30 precise64 kernel: [    1.068176] EFI Variables Facility v0.08 2004-May-17
+Sep 14 06:02:30 precise64 kernel: [    1.068346] TCP cubic registered
+Sep 14 06:02:30 precise64 kernel: [    1.068431] NET: Registered protocol family 10
+Sep 14 06:02:30 precise64 kernel: [    1.068802] NET: Registered protocol family 17
+Sep 14 06:02:30 precise64 kernel: [    1.068818] Registering the dns_resolver key type
+Sep 14 06:02:30 precise64 kernel: [    1.069265] PM: Hibernation image not present or could not be loaded.
+Sep 14 06:02:30 precise64 kernel: [    1.069277] registered taskstats version 1
+Sep 14 06:02:30 precise64 kernel: [    1.080070]   Magic number: 12:664:13
+Sep 14 06:02:30 precise64 kernel: [    1.080228] rtc_cmos rtc_cmos: setting system clock to 2012-09-14 06:02:28 UTC (1347602548)
+Sep 14 06:02:30 precise64 kernel: [    1.080279] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Sep 14 06:02:30 precise64 kernel: [    1.080281] EDD information not available.
+Sep 14 06:02:30 precise64 kernel: [    1.372350] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Sep 14 06:02:30 precise64 kernel: [    1.372479] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Sep 14 06:02:30 precise64 kernel: [    1.372483] ata1.00: 167772160 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Sep 14 06:02:30 precise64 kernel: [    1.372641] ata1.00: configured for UDMA/133
+Sep 14 06:02:30 precise64 kernel: [    1.373213] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Sep 14 06:02:30 precise64 kernel: [    1.373440] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Sep 14 06:02:30 precise64 kernel: [    1.373456] sd 0:0:0:0: [sda] 167772160 512-byte logical blocks: (85.8 GB/80.0 GiB)
+Sep 14 06:02:30 precise64 kernel: [    1.373518] sd 0:0:0:0: [sda] Write Protect is off
+Sep 14 06:02:30 precise64 kernel: [    1.373521] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Sep 14 06:02:30 precise64 kernel: [    1.373547] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 14 06:02:30 precise64 kernel: [    1.374159] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 14 06:02:30 precise64 kernel: [    1.375531]  sda: sda1 sda2 < sda5 >
+Sep 14 06:02:30 precise64 kernel: [    1.376221] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 14 06:02:30 precise64 kernel: [    1.376236] cdrom: Uniform CD-ROM driver Revision: 3.20
+Sep 14 06:02:30 precise64 kernel: [    1.376424] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Sep 14 06:02:30 precise64 kernel: [    1.376688] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Sep 14 06:02:30 precise64 kernel: [    1.377604] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 14 06:02:30 precise64 kernel: [    1.377722] sd 0:0:0:0: [sda] Attached SCSI disk
+Sep 14 06:02:30 precise64 kernel: [    1.378243] sr1: scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 14 06:02:30 precise64 kernel: [    1.378562] sr 2:0:0:0: Attached scsi CD-ROM sr1
+Sep 14 06:02:30 precise64 kernel: [    1.378761] sr 2:0:0:0: Attached scsi generic sg2 type 5
+Sep 14 06:02:30 precise64 kernel: [    1.380674] Freeing unused kernel memory: 920k freed
+Sep 14 06:02:30 precise64 kernel: [    1.380729] Write protecting the kernel read-only data: 12288k
+Sep 14 06:02:30 precise64 kernel: [    1.385741] Freeing unused kernel memory: 1608k freed
+Sep 14 06:02:30 precise64 kernel: [    1.389469] Freeing unused kernel memory: 1196k freed
+Sep 14 06:02:30 precise64 kernel: [    1.482634] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Sep 14 06:02:30 precise64 kernel: [    1.482639] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep 14 06:02:30 precise64 kernel: [    1.482885] e1000 0000:00:03.0: PCI INT A -> GSI 19 (level, low) -> IRQ 19
+Sep 14 06:02:30 precise64 kernel: [    1.990963] e1000 0000:00:03.0: eth0: (PCI:33MHz:32-bit) 08:00:27:88:0c:a6
+Sep 14 06:02:30 precise64 kernel: [    1.990975] e1000 0000:00:03.0: eth0: Intel(R) PRO/1000 Network Connection
+Sep 14 06:02:30 precise64 kernel: [    2.069425] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Sep 14 06:02:30 precise64 kernel: [    2.633932] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Sep 14 06:02:30 precise64 kernel: [    2.710977] Adding 786428k swap on /dev/mapper/precise64-swap_1.  Priority:-1 extents:1 across:786428k 
+Sep 14 06:02:30 precise64 kernel: [    2.749379] lp: driver loaded but no devices found
+Sep 14 06:02:30 precise64 kernel: [    2.867670] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Sep 14 06:02:30 precise64 kernel: [    2.876374] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Sep 14 06:02:30 precise64 kernel: [    2.920573] parport_pc 00:04: reported by Plug and Play ACPI
+Sep 14 06:02:30 precise64 kernel: [    2.950512] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Sep 14 06:02:30 precise64 kernel: [    3.094838] ppdev: user-space parallel port driver
+Sep 14 06:02:30 precise64 kernel: [    3.448400] vesafb: mode is 640x480x32, linelength=2560, pages=0
+Sep 14 06:02:30 precise64 kernel: [    3.448403] vesafb: scrolling: redraw
+Sep 14 06:02:30 precise64 kernel: [    3.448406] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Sep 14 06:02:30 precise64 kernel: [    3.448421] mtrr: your processor doesn't support write-combining
+Sep 14 06:02:30 precise64 kernel: [    3.448626] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90000280000, using 1216k, total 1216k
+Sep 14 06:02:30 precise64 kernel: [    3.449570] Console: switching to colour frame buffer device 80x30
+Sep 14 06:02:30 precise64 kernel: [    3.453070] fb0: VESA VGA frame buffer device
+Sep 14 06:02:31 precise64 kernel: [    3.745290] type=1400 audit(1347602551.162:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=405 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    3.745425] type=1400 audit(1347602551.162:3): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=405 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    3.745505] type=1400 audit(1347602551.162:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=405 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    3.954336] type=1400 audit(1347602551.370:5): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=414 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    3.954471] type=1400 audit(1347602551.370:6): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=414 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    3.954564] type=1400 audit(1347602551.370:7): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=414 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    4.094065] type=1400 audit(1347602551.510:8): apparmor="STATUS" operation="profile_load" name="/usr/sbin/ntpd" pid=527 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    4.097887] type=1400 audit(1347602551.514:9): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=512 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    4.098005] type=1400 audit(1347602551.514:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=512 comm="apparmor_parser"
+Sep 14 06:02:31 precise64 kernel: [    4.172886] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Sep 14 06:02:31 precise64 kernel: [    4.174218] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Sep 14 06:02:31 precise64 kernel: [    4.174252] ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Sep 14 06:02:31 precise64 dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 14 06:02:31 precise64 dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67
+Sep 14 06:02:31 precise64 dhclient: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Sep 14 06:02:31 precise64 dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Sep 14 06:02:31 precise64 dhclient: bound to 10.0.2.15 -- renewal in 36805 seconds.
+Sep 14 06:02:31 precise64 failsafe: Failsafe of 120 seconds reached.
+Sep 14 06:02:31 precise64 kernel: [    4.367724] init: failsafe main process (617) killed by TERM signal
+Sep 14 06:02:32 precise64 ntpd[739]: ntpd 4.2.6p3@1.2290-o Tue Jun  5 20:12:08 UTC 2012 (1)
+Sep 14 06:02:32 precise64 ntpd[745]: proto: precision = 3.352 usec
+Sep 14 06:02:32 precise64 ntpd[745]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Sep 14 06:02:32 precise64 ntpd[745]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Sep 14 06:02:32 precise64 ntpd[745]: Listen and drop on 1 v6wildcard :: UDP 123
+Sep 14 06:02:32 precise64 ntpd[745]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Sep 14 06:02:32 precise64 ntpd[745]: Listen normally on 3 eth0 10.0.2.15 UDP 123
+Sep 14 06:02:32 precise64 ntpd[745]: bind(20) AF_INET6 fe80::a00:27ff:fe88:ca6%2#123 flags 0x11 failed: Cannot assign requested address
+Sep 14 06:02:32 precise64 ntpd[745]: unable to create socket on eth0 (4) for fe80::a00:27ff:fe88:ca6#123
+Sep 14 06:02:32 precise64 ntpd[745]: failed to init interface for address fe80::a00:27ff:fe88:ca6
+Sep 14 06:02:32 precise64 ntpd[745]: Listen normally on 5 lo ::1 UDP 123
+Sep 14 06:02:32 precise64 ntpd[745]: peers refreshed
+Sep 14 06:02:32 precise64 ntpd[745]: Listening on routing socket on fd #21 for interface updates
+Sep 14 06:02:32 precise64 cron[740]: (CRON) INFO (pidfile fd = 3)
+Sep 14 06:02:32 precise64 cron[751]: (CRON) STARTUP (fork ok)
+Sep 14 06:02:32 precise64 cron[751]: (CRON) INFO (Running @reboot jobs)
+Sep 14 06:02:33 precise64 ntpdate[673]: the NTP socket is in use, exiting
+Sep 14 06:02:35 precise64 ntpd[745]: Listen normally on 6 eth0 fe80::a00:27ff:fe88:ca6 UDP 123
+Sep 14 06:02:35 precise64 ntpd[745]: peers refreshed
+Sep 14 06:02:35 precise64 ntpd[745]: new interface(s) found: waking up resolver
+Sep 14 06:02:42 precise64 kernel: [   14.981264] eth0: no IPv6 routers present
+Sep 14 06:10:22 precise64 kernel: [  475.051228] ISO 9660 Extensions: Microsoft Joliet Level 3
+Sep 14 06:10:22 precise64 kernel: [  475.079250] ISO 9660 Extensions: RRIP_1991A
+Sep 14 06:11:24 precise64 kernel: [  537.295037] vboxguest 0000:00:04.0: PCI INT A -> GSI 20 (level, low) -> IRQ 20
+Sep 14 06:11:24 precise64 kernel: [  537.297982] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input4
+Sep 14 06:11:24 precise64 kernel: [  537.301236] vboxguest: major 0, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Sep 14 06:11:24 precise64 kernel: [  537.301241] vboxguest: Successfully loaded version 4.2.0 (interface 0x00010004)
+Sep 14 06:11:25 precise64 kernel: [  537.815051] vboxsf: Successfully loaded version 4.2.0 (interface 0x00010004)
+Sep 14 06:12:34 precise64 rpcbind: Cannot open '/run/rpcbind/rpcbind.xdr' file for reading, errno 2 (No such file or directory)
+Sep 14 06:12:34 precise64 rpcbind: Cannot open '/run/rpcbind/portmap.xdr' file for reading, errno 2 (No such file or directory)
+Sep 14 06:12:35 precise64 sm-notify[17394]: Version 1.2.5 starting
+Sep 14 06:12:35 precise64 rpc.statd[17401]: Version 1.2.5 starting
+Sep 14 06:12:35 precise64 rpc.statd[17401]: Flags: TI-RPC 
+Sep 14 06:12:35 precise64 rpc.statd[17401]: Failed to read /var/lib/nfs/state: Success
+Sep 14 06:12:35 precise64 rpc.statd[17401]: Initializing NSM state
+Sep 14 06:12:35 precise64 kernel: [  608.306047] RPC: Registered named UNIX socket transport module.
+Sep 14 06:12:35 precise64 kernel: [  608.306052] RPC: Registered udp transport module.
+Sep 14 06:12:35 precise64 kernel: [  608.306054] RPC: Registered tcp transport module.
+Sep 14 06:12:35 precise64 kernel: [  608.306055] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Sep 14 06:12:35 precise64 kernel: [  608.317986] FS-Cache: Loaded
+Sep 14 06:12:35 precise64 kernel: [  608.338578] FS-Cache: Netfs 'nfs' registered for caching
+Sep 14 06:12:35 precise64 kernel: [  608.352622] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Sep 14 06:12:48 precise64 udevd[302]: can not find '/lib/udev/rules.d/75-persistent-net-generator.rules': No such file or directory
+Sep 14 06:17:01 precise64 CRON[19834]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep 14 06:17:36 precise64 kernel: [  909.166855] init: tty4 main process (722) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.167690] init: tty5 main process (732) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.169239] init: tty2 main process (741) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.170109] init: tty3 main process (742) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.170782] init: tty6 main process (744) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.171673] init: cron main process (751) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.181380] init: irqbalance main process (765) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.182533] init: tty1 main process (802) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.183867] init: idmapd main process (17462) killed by TERM signal
+Sep 14 06:17:36 precise64 kernel: [  909.202727] init: plymouth-upstart-bridge main process (19958) terminated with status 1
+Sep 14 06:17:36 precise64 kernel: Kernel logging (proc) stopped.
+Sep 14 06:17:36 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="520" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Sep 13 23:22:53 precise64 kernel: imklog 5.8.6, log source = /proc/kmsg started.
+Sep 13 23:22:53 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="678" x-info="http://www.rsyslog.com"] start
+Sep 13 23:22:53 precise64 rsyslogd: rsyslogd's groupid changed to 103
+Sep 13 23:22:53 precise64 rsyslogd: rsyslogd's userid changed to 101
+Sep 13 23:22:53 precise64 rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Initializing cgroup subsys cpu
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Linux version 3.2.0-23-generic (buildd@crested) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu4) ) #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012 (Ubuntu 3.2.0-23.36-generic 3.2.14)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Sep 13 23:22:53 precise64 kernel: [    0.000000] KERNEL supported cpus:
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   Intel GenuineIntel
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   AMD AuthenticAMD
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   Centaur CentaurHauls
+Sep 13 23:22:53 precise64 kernel: [    0.000000] BIOS-provided physical RAM map:
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 0000000017ff0000 (usable)
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 0000000017ff0000 - 0000000018000000 (ACPI data)
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] NX (Execute Disable) protection: active
+Sep 13 23:22:53 precise64 kernel: [    0.000000] DMI 2.5 present.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Sep 13 23:22:53 precise64 kernel: [    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] No AGP bridge found
+Sep 13 23:22:53 precise64 kernel: [    0.000000] last_pfn = 0x17ff0 max_arch_pfn = 0x400000000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] MTRR default type: uncachable
+Sep 13 23:22:53 precise64 kernel: [    0.000000] MTRR variable ranges disabled:
+Sep 13 23:22:53 precise64 kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Sep 13 23:22:53 precise64 kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] found SMP MP-table at [ffff88000009fff0] 9fff0
+Sep 13 23:22:53 precise64 kernel: [    0.000000] initial memory mapped : 0 - 20000000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Base memory trampoline at [ffff88000009a000] 9a000 size 20480
+Sep 13 23:22:53 precise64 kernel: [    0.000000] init_memory_mapping: 0000000000000000-0000000017ff0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  0000000000 - 0017e00000 page 2M
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  0017e00000 - 0017ff0000 page 4k
+Sep 13 23:22:53 precise64 kernel: [    0.000000] kernel direct mapping tables up to 17ff0000 @ 17fed000-17ff0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] RAMDISK: 166b0000 - 174bd000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: XSDT 0000000017ff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: FACP 0000000017ff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: DSDT 0000000017ff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: FACS 0000000017ff0200 00040
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: APIC 0000000017ff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: SSDT 0000000017ff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] No NUMA configuration found
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Faking a node at 0000000000000000-0000000017ff0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Initmem setup node 0 0000000000000000-0000000017ff0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   NODE_DATA [0000000017fe8000 - 0000000017fecfff]
+Sep 13 23:22:53 precise64 kernel: [    0.000000]  [ffffea0000000000-ffffea00005fffff] PMD -> [ffff880016000000-ffff8800165fffff] on node 0
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Zone PFN ranges:
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA      0x00000010 -> 0x00001000
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA32    0x00001000 -> 0x00100000
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   Normal   empty
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Movable zone start PFN for each node
+Sep 13 23:22:53 precise64 kernel: [    0.000000] early_node_map[2] active PFN ranges
+Sep 13 23:22:53 precise64 kernel: [    0.000000]     0: 0x00000010 -> 0x0000009f
+Sep 13 23:22:53 precise64 kernel: [    0.000000]     0: 0x00000100 -> 0x00017ff0
+Sep 13 23:22:53 precise64 kernel: [    0.000000] On node 0 totalpages: 98175
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA zone: 5 pages reserved
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA zone: 3914 pages, LIFO batch:0
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA32 zone: 1472 pages used for memmap
+Sep 13 23:22:53 precise64 kernel: [    0.000000]   DMA32 zone: 92720 pages, LIFO batch:31
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Sep 13 23:22:53 precise64 kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: IRQ2 used by override.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Sep 13 23:22:53 precise64 kernel: [    0.000000] SMP: Allowing 2 CPUs, 0 hotplug CPUs
+Sep 13 23:22:53 precise64 kernel: [    0.000000] nr_irqs_gsi: 40
+Sep 13 23:22:53 precise64 kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Allocating PCI resources starting at 18000000 (gap: 18000000:e7fc0000)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Sep 13 23:22:53 precise64 kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Sep 13 23:22:53 precise64 kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff880017c00000 s83072 r8192 d23424 u1048576
+Sep 13 23:22:53 precise64 kernel: [    0.000000] pcpu-alloc: s83072 r8192 d23424 u1048576 alloc=1*2097152
+Sep 13 23:22:53 precise64 kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 96634
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Policy zone: DMA32
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Sep 13 23:22:53 precise64 kernel: [    0.000000] PID hash table entries: 2048 (order: 2, 16384 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Checking aperture...
+Sep 13 23:22:53 precise64 kernel: [    0.000000] No AGP bridge found
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Memory: 356144k/393152k available (6566k kernel code, 452k absent, 36556k reserved, 6637k data, 920k init)
+Sep 13 23:22:53 precise64 kernel: [    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Hierarchical RCU implementation.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Sep 13 23:22:53 precise64 kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Console: colour dummy device 80x25
+Sep 13 23:22:53 precise64 kernel: [    0.000000] console [tty0] enabled
+Sep 13 23:22:53 precise64 kernel: [    0.000000] allocated 3145728 bytes of page_cgroup
+Sep 13 23:22:53 precise64 kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Fast TSC calibration failed
+Sep 13 23:22:53 precise64 kernel: [    0.000000] TSC: Unable to calibrate against PIT
+Sep 13 23:22:53 precise64 kernel: [    0.000000] TSC: using PMTIMER reference calibration
+Sep 13 23:22:53 precise64 kernel: [    0.000000] Detected 1688.197 MHz processor.
+Sep 13 23:22:53 precise64 kernel: [    0.016005] Calibrating delay loop (skipped), value calculated using timer frequency.. 3376.39 BogoMIPS (lpj=6752788)
+Sep 13 23:22:53 precise64 kernel: [    0.016011] pid_max: default: 32768 minimum: 301
+Sep 13 23:22:53 precise64 kernel: [    0.016047] Security Framework initialized
+Sep 13 23:22:53 precise64 kernel: [    0.016070] AppArmor: AppArmor initialized
+Sep 13 23:22:53 precise64 kernel: [    0.016072] Yama: becoming mindful.
+Sep 13 23:22:53 precise64 kernel: [    0.016197] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.016399] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.016507] Mount-cache hash table entries: 256
+Sep 13 23:22:53 precise64 kernel: [    0.016641] Initializing cgroup subsys cpuacct
+Sep 13 23:22:53 precise64 kernel: [    0.016647] Initializing cgroup subsys memory
+Sep 13 23:22:53 precise64 kernel: [    0.016656] Initializing cgroup subsys devices
+Sep 13 23:22:53 precise64 kernel: [    0.016659] Initializing cgroup subsys freezer
+Sep 13 23:22:53 precise64 kernel: [    0.016661] Initializing cgroup subsys blkio
+Sep 13 23:22:53 precise64 kernel: [    0.016668] Initializing cgroup subsys perf_event
+Sep 13 23:22:53 precise64 kernel: [    0.016874] CPU: Physical Processor ID: 0
+Sep 13 23:22:53 precise64 kernel: [    0.016876] CPU: Processor Core ID: 0
+Sep 13 23:22:53 precise64 kernel: [    0.016884] mce: CPU supports 0 MCE banks
+Sep 13 23:22:53 precise64 kernel: [    0.042779] ACPI: Core revision 20110623
+Sep 13 23:22:53 precise64 kernel: [    0.044002] ftrace: allocating 27049 entries in 107 pages
+Sep 13 23:22:53 precise64 kernel: [    0.052568] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Sep 13 23:22:53 precise64 kernel: [    0.097669] CPU0: Intel(R) Core(TM) i5-2557M CPU @ 1.70GHz stepping 07
+Sep 13 23:22:53 precise64 kernel: [    0.100005] Performance Events: unsupported p6 CPU model 42 no PMU driver, software events only.
+Sep 13 23:22:53 precise64 kernel: [    0.100005] NMI watchdog disabled (cpu0): hardware events not enabled
+Sep 13 23:22:53 precise64 kernel: [    0.100005] Booting Node   0, Processors  #1 Ok.
+Sep 13 23:22:53 precise64 kernel: [    0.100005] smpboot cpu 1: start_ip = 9a000
+Sep 13 23:22:53 precise64 kernel: [    0.020001] calibrate_delay_direct() dropping max bogoMips estimate 2 = 8120219
+Sep 13 23:22:53 precise64 kernel: [    0.020001] mce: CPU supports 0 MCE banks
+Sep 13 23:22:53 precise64 kernel: [    0.192011] TSC synchronization [CPU#0 -> CPU#1]:
+Sep 13 23:22:53 precise64 kernel: [    0.192011] Measured 557511 cycles TSC warp between CPUs, turning off TSC clock.
+Sep 13 23:22:53 precise64 kernel: [    0.192011] Marking TSC unstable due to check_tsc_sync_source failed
+Sep 13 23:22:53 precise64 kernel: [    0.192202] NMI watchdog disabled (cpu1): hardware events not enabled
+Sep 13 23:22:53 precise64 kernel: [    0.192276] Brought up 2 CPUs
+Sep 13 23:22:53 precise64 kernel: [    0.192280] Total of 2 processors activated (6696.19 BogoMIPS).
+Sep 13 23:22:53 precise64 kernel: [    0.193097] devtmpfs: initialized
+Sep 13 23:22:53 precise64 kernel: [    0.193097] EVM: security.selinux
+Sep 13 23:22:53 precise64 kernel: [    0.193097] EVM: security.SMACK64
+Sep 13 23:22:53 precise64 kernel: [    0.193097] EVM: security.capability
+Sep 13 23:22:53 precise64 kernel: [    0.196081] print_constraints: dummy: 
+Sep 13 23:22:53 precise64 kernel: [    0.196164] RTC time: 23:22:48, date: 09/13/12
+Sep 13 23:22:53 precise64 kernel: [    0.196210] NET: Registered protocol family 16
+Sep 13 23:22:53 precise64 kernel: [    0.196972] ACPI: bus type pci registered
+Sep 13 23:22:53 precise64 kernel: [    0.196972] PCI: Using configuration type 1 for base access
+Sep 13 23:22:53 precise64 kernel: [    0.197913] Trying to unpack rootfs image as initramfs...
+Sep 13 23:22:53 precise64 kernel: [    0.208229] bio: create slab <bio-0> at 0
+Sep 13 23:22:53 precise64 kernel: [    0.208306] ACPI: Added _OSI(Module Device)
+Sep 13 23:22:53 precise64 kernel: [    0.208309] ACPI: Added _OSI(Processor Device)
+Sep 13 23:22:53 precise64 kernel: [    0.208312] ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 13 23:22:53 precise64 kernel: [    0.208315] ACPI: Added _OSI(Processor Aggregator Device)
+Sep 13 23:22:53 precise64 kernel: [    0.208974] ACPI: EC: Look up EC in DSDT
+Sep 13 23:22:53 precise64 kernel: [    0.210146] ACPI: Executed 1 blocks of module-level executable AML code
+Sep 13 23:22:53 precise64 kernel: [    0.214659] ACPI: Interpreter enabled
+Sep 13 23:22:53 precise64 kernel: [    0.214665] ACPI: (supports S0 S5)
+Sep 13 23:22:53 precise64 kernel: [    0.214681] ACPI: Using IOAPIC for interrupt routing
+Sep 13 23:22:53 precise64 kernel: [    0.220385] ACPI: No dock devices found.
+Sep 13 23:22:53 precise64 kernel: [    0.220389] HEST: Table not found.
+Sep 13 23:22:53 precise64 kernel: [    0.220394] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Sep 13 23:22:53 precise64 kernel: [    0.220490] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 13 23:22:53 precise64 kernel: [    0.220681] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Sep 13 23:22:53 precise64 kernel: [    0.220685] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Sep 13 23:22:53 precise64 kernel: [    0.220689] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Sep 13 23:22:53 precise64 kernel: [    0.220693] pci_root PNP0A03:00: host bridge window [mem 0x18000000-0xffdfffff] (ignored)
+Sep 13 23:22:53 precise64 kernel: [    0.220775] pci 0000:00:00.0: [8086:1237] type 0 class 0x000600
+Sep 13 23:22:53 precise64 kernel: [    0.221482] pci 0000:00:01.0: [8086:7000] type 0 class 0x000601
+Sep 13 23:22:53 precise64 kernel: [    0.222556] pci 0000:00:01.1: [8086:7111] type 0 class 0x000101
+Sep 13 23:22:53 precise64 kernel: [    0.222556] pci 0000:00:01.1: reg 20: [io  0xd000-0xd00f]
+Sep 13 23:22:53 precise64 kernel: [    0.222556] pci 0000:00:02.0: [80ee:beef] type 0 class 0x000300
+Sep 13 23:22:53 precise64 kernel: [    0.222556] pci 0000:00:02.0: reg 10: [mem 0xe0000000-0xe07fffff pref]
+Sep 13 23:22:53 precise64 kernel: [    0.241277] pci 0000:00:03.0: [8086:100e] type 0 class 0x000200
+Sep 13 23:22:53 precise64 kernel: [    0.242544] pci 0000:00:03.0: reg 10: [mem 0xf0000000-0xf001ffff]
+Sep 13 23:22:53 precise64 kernel: [    0.244255] pci 0000:00:03.0: reg 18: [io  0xd010-0xd017]
+Sep 13 23:22:53 precise64 kernel: [    0.250305] pci 0000:00:04.0: [80ee:cafe] type 0 class 0x000880
+Sep 13 23:22:53 precise64 kernel: [    0.256397] pci 0000:00:04.0: reg 10: [io  0xd020-0xd03f]
+Sep 13 23:22:53 precise64 kernel: [    0.260280] pci 0000:00:04.0: reg 14: [mem 0xf0400000-0xf07fffff]
+Sep 13 23:22:53 precise64 kernel: [    0.261257] pci 0000:00:04.0: reg 18: [mem 0xf0800000-0xf0803fff pref]
+Sep 13 23:22:53 precise64 kernel: [    0.263589] pci 0000:00:07.0: [8086:7113] type 0 class 0x000680
+Sep 13 23:22:53 precise64 kernel: [    0.265320] pci 0000:00:0d.0: [8086:2829] type 0 class 0x000106
+Sep 13 23:22:53 precise64 kernel: [    0.266077] pci 0000:00:0d.0: reg 10: [io  0xd040-0xd047]
+Sep 13 23:22:53 precise64 kernel: [    0.267416] pci 0000:00:0d.0: reg 18: [io  0xd050-0xd057]
+Sep 13 23:22:53 precise64 kernel: [    0.269149] pci 0000:00:0d.0: reg 20: [io  0xd060-0xd06f]
+Sep 13 23:22:53 precise64 kernel: [    0.269891] pci 0000:00:0d.0: reg 24: [mem 0xf0804000-0xf0805fff]
+Sep 13 23:22:53 precise64 kernel: [    0.271475] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Sep 13 23:22:53 precise64 kernel: [    0.272565]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x1e)
+Sep 13 23:22:53 precise64 kernel: [    0.292040] ACPI: PCI Interrupt Link [LNKA] (IRQs *5 9 10 11)
+Sep 13 23:22:53 precise64 kernel: [    0.292471] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Sep 13 23:22:53 precise64 kernel: [    0.292624] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Sep 13 23:22:53 precise64 kernel: [    0.292771] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Sep 13 23:22:53 precise64 kernel: [    0.293098] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Sep 13 23:22:53 precise64 kernel: [    0.293104] vgaarb: loaded
+Sep 13 23:22:53 precise64 kernel: [    0.293107] vgaarb: bridge control possible 0000:00:02.0
+Sep 13 23:22:53 precise64 kernel: [    0.293296] i2c-core: driver [aat2870] using legacy suspend method
+Sep 13 23:22:53 precise64 kernel: [    0.293299] i2c-core: driver [aat2870] using legacy resume method
+Sep 13 23:22:53 precise64 kernel: [    0.293424] SCSI subsystem initialized
+Sep 13 23:22:53 precise64 kernel: [    0.293538] libata version 3.00 loaded.
+Sep 13 23:22:53 precise64 kernel: [    0.293638] usbcore: registered new interface driver usbfs
+Sep 13 23:22:53 precise64 kernel: [    0.293655] usbcore: registered new interface driver hub
+Sep 13 23:22:53 precise64 kernel: [    0.293703] usbcore: registered new device driver usb
+Sep 13 23:22:53 precise64 kernel: [    0.293854] PCI: Using ACPI for IRQ routing
+Sep 13 23:22:53 precise64 kernel: [    0.293864] PCI: pci_cache_line_size set to 64 bytes
+Sep 13 23:22:53 precise64 kernel: [    0.294216] reserve RAM buffer: 000000000009fc00 - 000000000009ffff 
+Sep 13 23:22:53 precise64 kernel: [    0.294227] reserve RAM buffer: 0000000017ff0000 - 0000000017ffffff 
+Sep 13 23:22:53 precise64 kernel: [    0.294401] NetLabel: Initializing
+Sep 13 23:22:53 precise64 kernel: [    0.294404] NetLabel:  domain hash size = 128
+Sep 13 23:22:53 precise64 kernel: [    0.294405] NetLabel:  protocols = UNLABELED CIPSOv4
+Sep 13 23:22:53 precise64 kernel: [    0.294421] NetLabel:  unlabeled traffic allowed by default
+Sep 13 23:22:53 precise64 kernel: [    0.314993] AppArmor: AppArmor Filesystem Enabled
+Sep 13 23:22:53 precise64 kernel: [    0.315031] pnp: PnP ACPI init
+Sep 13 23:22:53 precise64 kernel: [    0.315054] ACPI: bus type pnp registered
+Sep 13 23:22:53 precise64 kernel: [    0.315180] pnp 00:00: [bus 00-ff]
+Sep 13 23:22:53 precise64 kernel: [    0.315184] pnp 00:00: [io  0x0cf8-0x0cff]
+Sep 13 23:22:53 precise64 kernel: [    0.315187] pnp 00:00: [io  0x0000-0x0cf7 window]
+Sep 13 23:22:53 precise64 kernel: [    0.315190] pnp 00:00: [io  0x0d00-0xffff window]
+Sep 13 23:22:53 precise64 kernel: [    0.315193] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+Sep 13 23:22:53 precise64 kernel: [    0.315196] pnp 00:00: [mem 0x18000000-0xffdfffff window]
+Sep 13 23:22:53 precise64 kernel: [    0.315243] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+Sep 13 23:22:53 precise64 kernel: [    0.315266] pnp 00:01: [io  0x0060]
+Sep 13 23:22:53 precise64 kernel: [    0.315269] pnp 00:01: [io  0x0064]
+Sep 13 23:22:53 precise64 kernel: [    0.315320] pnp 00:01: [irq 1]
+Sep 13 23:22:53 precise64 kernel: [    0.315334] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Sep 13 23:22:53 precise64 kernel: [    0.315334] pnp 00:02: [io  0x0000-0x000f]
+Sep 13 23:22:53 precise64 kernel: [    0.315338] pnp 00:02: [io  0x0080-0x008f]
+Sep 13 23:22:53 precise64 kernel: [    0.315353] pnp 00:02: [io  0x00c0-0x00df]
+Sep 13 23:22:53 precise64 kernel: [    0.315360] pnp 00:02: [dma 4]
+Sep 13 23:22:53 precise64 kernel: [    0.315405] pnp 00:02: Plug and Play ACPI device, IDs PNP0200 (active)
+Sep 13 23:22:53 precise64 kernel: [    0.315514] pnp 00:03: [irq 12]
+Sep 13 23:22:53 precise64 kernel: [    0.315549] pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 (active)
+Sep 13 23:22:53 precise64 kernel: [    0.315569] pnp 00:04: [io  0x0378-0x037f]
+Sep 13 23:22:53 precise64 kernel: [    0.315571] pnp 00:04: [io  0x0778-0x077f]
+Sep 13 23:22:53 precise64 kernel: [    0.315606] pnp 00:04: [irq 7]
+Sep 13 23:22:53 precise64 kernel: [    0.315637] pnp 00:04: Plug and Play ACPI device, IDs PNP0400 (active)
+Sep 13 23:22:53 precise64 kernel: [    0.315637] pnp: PnP ACPI: found 5 devices
+Sep 13 23:22:53 precise64 kernel: [    0.315637] ACPI: ACPI bus type pnp unregistered
+Sep 13 23:22:53 precise64 kernel: [    0.328170] Switching to clocksource acpi_pm
+Sep 13 23:22:53 precise64 kernel: [    0.328482] PCI: max bus depth: 0 pci_try_num: 1
+Sep 13 23:22:53 precise64 kernel: [    0.328513] pci_bus 0000:00: resource 0 [io  0x0000-0xffff]
+Sep 13 23:22:53 precise64 kernel: [    0.328538] pci_bus 0000:00: resource 1 [mem 0x00000000-0xfffffffff]
+Sep 13 23:22:53 precise64 kernel: [    0.328626] NET: Registered protocol family 2
+Sep 13 23:22:53 precise64 kernel: [    0.328731] IP route cache hash table entries: 4096 (order: 3, 32768 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.329097] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.329213] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.329278] TCP: Hash tables configured (established 16384 bind 16384)
+Sep 13 23:22:53 precise64 kernel: [    0.329294] TCP reno registered
+Sep 13 23:22:53 precise64 kernel: [    0.329312] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.329331] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.329408] NET: Registered protocol family 1
+Sep 13 23:22:53 precise64 kernel: [    0.329434] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Sep 13 23:22:53 precise64 kernel: [    0.329520] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Sep 13 23:22:53 precise64 kernel: [    0.329611] pci 0000:00:02.0: Boot video device
+Sep 13 23:22:53 precise64 kernel: [    0.329737] PCI: CLS 0 bytes, default 64
+Sep 13 23:22:53 precise64 kernel: [    0.329962] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Sep 13 23:22:53 precise64 kernel: [    0.330504] audit: initializing netlink socket (disabled)
+Sep 13 23:22:53 precise64 kernel: [    0.330527] type=2000 audit(1347578568.328:1): initialized
+Sep 13 23:22:53 precise64 kernel: [    0.365230] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Sep 13 23:22:53 precise64 kernel: [    0.367877] VFS: Disk quotas dquot_6.5.2
+Sep 13 23:22:53 precise64 kernel: [    0.367953] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Sep 13 23:22:53 precise64 kernel: [    0.368918] fuse init (API version 7.17)
+Sep 13 23:22:53 precise64 kernel: [    0.369659] msgmni has been set to 695
+Sep 13 23:22:53 precise64 kernel: [    0.370616] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Sep 13 23:22:53 precise64 kernel: [    0.370658] io scheduler noop registered
+Sep 13 23:22:53 precise64 kernel: [    0.370660] io scheduler deadline registered
+Sep 13 23:22:53 precise64 kernel: [    0.370703] io scheduler cfq registered (default)
+Sep 13 23:22:53 precise64 kernel: [    0.370844] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Sep 13 23:22:53 precise64 kernel: [    0.370874] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Sep 13 23:22:53 precise64 kernel: [    0.371789] ACPI: Deprecated procfs I/F for AC is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Sep 13 23:22:53 precise64 kernel: [    0.372247] ACPI: AC Adapter [AC] (on-line)
+Sep 13 23:22:53 precise64 kernel: [    0.372333] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Sep 13 23:22:53 precise64 kernel: [    0.372340] ACPI: Power Button [PWRF]
+Sep 13 23:22:53 precise64 kernel: [    0.372462] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Sep 13 23:22:53 precise64 kernel: [    0.372467] ACPI: Sleep Button [SLPF]
+Sep 13 23:22:53 precise64 kernel: [    0.374518] ACPI: Deprecated procfs I/F for battery is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Sep 13 23:22:53 precise64 kernel: [    0.374562] ACPI: Battery Slot [BAT0] (battery present)
+Sep 13 23:22:53 precise64 kernel: [    0.374591] ERST: Table is not found!
+Sep 13 23:22:53 precise64 kernel: [    0.374593] GHES: HEST is not enabled!
+Sep 13 23:22:53 precise64 kernel: [    0.375992] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Sep 13 23:22:53 precise64 kernel: [    0.387561] ACPI: Battery Slot [BAT0] (battery present)
+Sep 13 23:22:53 precise64 kernel: [    0.662274] Freeing initrd memory: 14388k freed
+Sep 13 23:22:53 precise64 kernel: [    0.748420] Linux agpgart interface v0.103
+Sep 13 23:22:53 precise64 kernel: [    0.755629] brd: module loaded
+Sep 13 23:22:53 precise64 kernel: [    0.758294] loop: module loaded
+Sep 13 23:22:53 precise64 kernel: [    0.758530] ahci 0000:00:0d.0: version 3.0
+Sep 13 23:22:53 precise64 kernel: [    0.758626] ahci 0000:00:0d.0: PCI INT A -> GSI 21 (level, low) -> IRQ 21
+Sep 13 23:22:53 precise64 kernel: [    0.758861] ahci: SSS flag set, parallel bus scan disabled
+Sep 13 23:22:53 precise64 kernel: [    0.759582] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Sep 13 23:22:53 precise64 kernel: [    0.759588] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Sep 13 23:22:53 precise64 kernel: [    0.759630] ahci 0000:00:0d.0: setting latency timer to 64
+Sep 13 23:22:53 precise64 kernel: [    0.760327] scsi0 : ahci
+Sep 13 23:22:53 precise64 kernel: [    0.760435] ata1: SATA max UDMA/133 abar m8192@0xf0804000 port 0xf0804100 irq 21
+Sep 13 23:22:53 precise64 kernel: [    0.760589] ata_piix 0000:00:01.1: version 2.13
+Sep 13 23:22:53 precise64 kernel: [    0.760715] ata_piix 0000:00:01.1: setting latency timer to 64
+Sep 13 23:22:53 precise64 kernel: [    0.764825] scsi1 : ata_piix
+Sep 13 23:22:53 precise64 kernel: [    0.766947] scsi2 : ata_piix
+Sep 13 23:22:53 precise64 kernel: [    0.767031] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Sep 13 23:22:53 precise64 kernel: [    0.767035] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Sep 13 23:22:53 precise64 kernel: [    0.767554] Fixed MDIO Bus: probed
+Sep 13 23:22:53 precise64 kernel: [    0.767582] tun: Universal TUN/TAP device driver, 1.6
+Sep 13 23:22:53 precise64 kernel: [    0.767584] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Sep 13 23:22:53 precise64 kernel: [    0.767938] PPP generic driver version 2.4.2
+Sep 13 23:22:53 precise64 kernel: [    0.768836] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Sep 13 23:22:53 precise64 kernel: [    0.768858] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Sep 13 23:22:53 precise64 kernel: [    0.768875] uhci_hcd: USB Universal Host Controller Interface driver
+Sep 13 23:22:53 precise64 kernel: [    0.768929] usbcore: registered new interface driver libusual
+Sep 13 23:22:53 precise64 kernel: [    0.768984] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Sep 13 23:22:53 precise64 kernel: [    1.080298] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Sep 13 23:22:53 precise64 kernel: [    1.327204] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Sep 13 23:22:53 precise64 kernel: [    1.327270] ata1.00: 167772160 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Sep 13 23:22:53 precise64 kernel: [    1.328365] ata1.00: configured for UDMA/133
+Sep 13 23:22:53 precise64 kernel: [    1.328563] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Sep 13 23:22:53 precise64 kernel: [    1.328663] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 13 23:22:53 precise64 kernel: [    1.328857] sd 0:0:0:0: [sda] 167772160 512-byte logical blocks: (85.8 GB/80.0 GiB)
+Sep 13 23:22:53 precise64 kernel: [    1.328930] sd 0:0:0:0: [sda] Write Protect is off
+Sep 13 23:22:53 precise64 kernel: [    1.328934] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Sep 13 23:22:53 precise64 kernel: [    1.328965] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Sep 13 23:22:53 precise64 kernel: [    1.329070] serio: i8042 KBD port at 0x60,0x64 irq 1
+Sep 13 23:22:53 precise64 kernel: [    1.329160] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Sep 13 23:22:53 precise64 kernel: [    1.329501] serio: i8042 AUX port at 0x60,0x64 irq 12
+Sep 13 23:22:53 precise64 kernel: [    1.329842] ata2.00: configured for UDMA/33
+Sep 13 23:22:53 precise64 kernel: [    1.329853] mousedev: PS/2 mouse device common for all mice
+Sep 13 23:22:53 precise64 kernel: [    1.330486] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Sep 13 23:22:53 precise64 kernel: [    1.330610] rtc0: alarms up to one day, 114 bytes nvram
+Sep 13 23:22:53 precise64 kernel: [    1.330739] device-mapper: uevent: version 1.0.3
+Sep 13 23:22:53 precise64 kernel: [    1.330838] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Sep 13 23:22:53 precise64 kernel: [    1.330853] cpuidle: using governor ladder
+Sep 13 23:22:53 precise64 kernel: [    1.330856] cpuidle: using governor menu
+Sep 13 23:22:53 precise64 kernel: [    1.330858] EFI Variables Facility v0.08 2004-May-17
+Sep 13 23:22:53 precise64 kernel: [    1.331117] TCP cubic registered
+Sep 13 23:22:53 precise64 kernel: [    1.331261] NET: Registered protocol family 10
+Sep 13 23:22:53 precise64 kernel: [    1.331382] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 13 23:22:53 precise64 kernel: [    1.331819] NET: Registered protocol family 17
+Sep 13 23:22:53 precise64 kernel: [    1.331841] Registering the dns_resolver key type
+Sep 13 23:22:53 precise64 kernel: [    1.331984] PM: Hibernation image not present or could not be loaded.
+Sep 13 23:22:53 precise64 kernel: [    1.331999] registered taskstats version 1
+Sep 13 23:22:53 precise64 kernel: [    1.340603] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Sep 13 23:22:53 precise64 kernel: [    1.340807] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 13 23:22:53 precise64 kernel: [    1.340821] cdrom: Uniform CD-ROM driver Revision: 3.20
+Sep 13 23:22:53 precise64 kernel: [    1.341107]  sda: sda1 sda2 < sda5 >
+Sep 13 23:22:53 precise64 kernel: [    1.341221] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Sep 13 23:22:53 precise64 kernel: [    1.341580] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Sep 13 23:22:53 precise64 kernel: [    1.341613] sd 0:0:0:0: [sda] Attached SCSI disk
+Sep 13 23:22:53 precise64 kernel: [    1.341767] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Sep 13 23:22:53 precise64 kernel: [    1.355159] ata3.00: configured for UDMA/33
+Sep 13 23:22:53 precise64 kernel: [    1.362339]   Magic number: 12:259:403
+Sep 13 23:22:53 precise64 kernel: [    1.362363] power_supply BAT0: hash matches
+Sep 13 23:22:53 precise64 kernel: [    1.362538] rtc_cmos rtc_cmos: setting system clock to 2012-09-13 23:22:49 UTC (1347578569)
+Sep 13 23:22:53 precise64 kernel: [    1.362610] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Sep 13 23:22:53 precise64 kernel: [    1.362613] EDD information not available.
+Sep 13 23:22:53 precise64 kernel: [    1.364858] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Sep 13 23:22:53 precise64 kernel: [    1.365579] sr1: scsi3-mmc drive: 32x/32x xa/form2 tray
+Sep 13 23:22:53 precise64 kernel: [    1.365829] sr 2:0:0:0: Attached scsi CD-ROM sr1
+Sep 13 23:22:53 precise64 kernel: [    1.366295] sr 2:0:0:0: Attached scsi generic sg2 type 5
+Sep 13 23:22:53 precise64 kernel: [    1.368059] Freeing unused kernel memory: 920k freed
+Sep 13 23:22:53 precise64 kernel: [    1.368209] Write protecting the kernel read-only data: 12288k
+Sep 13 23:22:53 precise64 kernel: [    1.373720] Freeing unused kernel memory: 1608k freed
+Sep 13 23:22:53 precise64 kernel: [    1.382678] Freeing unused kernel memory: 1196k freed
+Sep 13 23:22:53 precise64 kernel: [    1.491459] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Sep 13 23:22:53 precise64 kernel: [    1.491464] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Sep 13 23:22:53 precise64 kernel: [    1.491722] e1000 0000:00:03.0: PCI INT A -> GSI 19 (level, low) -> IRQ 19
+Sep 13 23:22:53 precise64 kernel: [    1.491784] e1000 0000:00:03.0: setting latency timer to 64
+Sep 13 23:22:53 precise64 kernel: [    2.154894] e1000 0000:00:03.0: eth0: (PCI:33MHz:32-bit) 08:00:27:88:0c:a6
+Sep 13 23:22:53 precise64 kernel: [    2.154903] e1000 0000:00:03.0: eth0: Intel(R) PRO/1000 Network Connection
+Sep 13 23:22:53 precise64 kernel: [    2.268539] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Sep 13 23:22:53 precise64 kernel: [    2.954615] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Sep 13 23:22:53 precise64 kernel: [    3.022056] Adding 786428k swap on /dev/mapper/precise64-swap_1.  Priority:-1 extents:1 across:786428k 
+Sep 13 23:22:53 precise64 kernel: [    3.193432] lp: driver loaded but no devices found
+Sep 13 23:22:53 precise64 kernel: [    3.218696] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Sep 13 23:22:53 precise64 kernel: [    3.239030] vboxguest 0000:00:04.0: PCI INT A -> GSI 20 (level, low) -> IRQ 20
+Sep 13 23:22:53 precise64 kernel: [    3.255167] parport_pc 00:04: reported by Plug and Play ACPI
+Sep 13 23:22:53 precise64 kernel: [    3.303912] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Sep 13 23:22:53 precise64 kernel: [    3.376278] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input4
+Sep 13 23:22:53 precise64 kernel: [    3.382513] type=1400 audit(1347578571.515:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=403 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    3.383003] type=1400 audit(1347578571.515:3): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=403 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    3.383280] type=1400 audit(1347578571.515:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=403 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    3.392631] vboxguest: major 0, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Sep 13 23:22:53 precise64 kernel: [    3.392635] vboxguest: Successfully loaded version 4.2.0 (interface 0x00010004)
+Sep 13 23:22:53 precise64 kernel: [    3.399150] type=1400 audit(1347578571.531:5): apparmor="STATUS" operation="profile_load" name="/usr/sbin/ntpd" pid=405 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    3.680438] ppdev: user-space parallel port driver
+Sep 13 23:22:53 precise64 kernel: [    3.737163] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Sep 13 23:22:53 precise64 kernel: [    4.203545] vesafb: mode is 640x480x32, linelength=2560, pages=0
+Sep 13 23:22:53 precise64 kernel: [    4.203549] vesafb: scrolling: redraw
+Sep 13 23:22:53 precise64 kernel: [    4.203552] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Sep 13 23:22:53 precise64 kernel: [    4.203568] mtrr: your processor doesn't support write-combining
+Sep 13 23:22:53 precise64 kernel: [    4.203791] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90001300000, using 1216k, total 1216k
+Sep 13 23:22:53 precise64 kernel: [    4.204088] Console: switching to colour frame buffer device 80x30
+Sep 13 23:22:53 precise64 kernel: [    4.208495] fb0: VESA VGA frame buffer device
+Sep 13 23:22:53 precise64 kernel: [    4.243534] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Sep 13 23:22:53 precise64 kernel: [    4.604170] RPC: Registered named UNIX socket transport module.
+Sep 13 23:22:53 precise64 kernel: [    4.604174] RPC: Registered udp transport module.
+Sep 13 23:22:53 precise64 kernel: [    4.604176] RPC: Registered tcp transport module.
+Sep 13 23:22:53 precise64 kernel: [    4.604178] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Sep 13 23:22:53 precise64 kernel: [    4.656203] FS-Cache: Loaded
+Sep 13 23:22:53 precise64 kernel: [    4.683823] FS-Cache: Netfs 'nfs' registered for caching
+Sep 13 23:22:53 precise64 kernel: [    4.714494] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Sep 13 23:22:53 precise64 kernel: [    4.747836] init: failsafe main process (636) killed by TERM signal
+Sep 13 23:22:53 precise64 kernel: [    5.014428] type=1400 audit(1347578573.147:6): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/ntpd" pid=715 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    5.014769] type=1400 audit(1347578573.147:7): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=714 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    5.018195] type=1400 audit(1347578573.151:8): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=714 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    5.018458] type=1400 audit(1347578573.151:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=714 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 kernel: [    5.024536] type=1400 audit(1347578573.159:10): apparmor="STATUS" operation="profile_load" name="/usr/sbin/tcpdump" pid=717 comm="apparmor_parser"
+Sep 13 23:22:53 precise64 cron[748]: (CRON) INFO (pidfile fd = 3)
+Sep 13 23:22:53 precise64 cron[764]: (CRON) STARTUP (fork ok)
+Sep 13 23:22:53 precise64 cron[764]: (CRON) INFO (Running @reboot jobs)
+Sep 13 23:22:53 precise64 ntpd[760]: ntpd 4.2.6p3@1.2290-o Tue Jun  5 20:12:08 UTC 2012 (1)
+Sep 13 23:22:53 precise64 ntpd[768]: proto: precision = 3.911 usec
+Sep 13 23:22:53 precise64 ntpd[768]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Sep 13 23:22:53 precise64 ntpd[768]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Sep 13 23:22:53 precise64 ntpd[768]: Listen and drop on 1 v6wildcard :: UDP 123
+Sep 13 23:22:53 precise64 ntpd[768]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Sep 13 23:22:53 precise64 ntpd[768]: Listen normally on 3 eth0 10.0.2.15 UDP 123
+Sep 13 23:22:53 precise64 ntpd[768]: bind(20) AF_INET6 fe80::a00:27ff:fe88:ca6%2#123 flags 0x11 failed: Cannot assign requested address
+Sep 13 23:22:53 precise64 ntpd[768]: unable to create socket on eth0 (4) for fe80::a00:27ff:fe88:ca6#123
+Sep 13 23:22:53 precise64 ntpd[768]: failed to init interface for address fe80::a00:27ff:fe88:ca6
+Sep 13 23:22:53 precise64 ntpd[768]: Listen normally on 5 lo ::1 UDP 123
+Sep 13 23:22:53 precise64 ntpd[768]: peers refreshed
+Sep 13 23:22:53 precise64 ntpd[768]: Listening on routing socket on fd #21 for interface updates
+Sep 13 23:22:53 precise64 kernel: [    5.356319] vboxsf: Successfully loaded version 4.2.0 (interface 0x00010004)
+Sep 14 06:22:55 precise64 dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Sep 14 06:22:55 precise64 dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67
+Sep 14 06:22:55 precise64 dhclient: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Sep 14 06:22:55 precise64 dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Sep 14 06:22:55 precise64 dhclient: bound to 10.0.2.15 -- renewal in 36134 seconds.
+Sep 14 06:22:55 precise64 ntpdate[589]: the NTP socket is in use, exiting
+Sep 14 06:22:56 precise64 ntpd[768]: Listen normally on 6 eth0 fe80::a00:27ff:fe88:ca6 UDP 123
+Sep 14 06:22:56 precise64 ntpd[768]: peers refreshed
+Sep 14 06:22:56 precise64 ntpd[768]: new interface(s) found: waking up resolver
+Sep 14 06:23:04 precise64 kernel: [   14.704093] eth0: no IPv6 routers present
+Sep 14 06:23:18 precise64 kernel: Kernel logging (proc) stopped.
+Sep 14 06:23:18 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="678" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Oct 16 06:08:15 precise64 kernel: imklog 5.8.6, log source = /proc/kmsg started.
+Oct 16 06:08:15 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="716" x-info="http://www.rsyslog.com"] start
+Oct 16 06:08:15 precise64 rsyslogd: rsyslogd's groupid changed to 103
+Oct 16 06:08:15 precise64 rsyslogd: rsyslogd's userid changed to 101
+Oct 16 06:08:15 precise64 rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Linux version 3.2.0-23-generic (buildd@crested) (gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu4) ) #36-Ubuntu SMP Tue Apr 10 20:39:51 UTC 2012 (Ubuntu 3.2.0-23.36-generic 3.2.14)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Oct 16 06:08:15 precise64 kernel: [    0.000000] KERNEL supported cpus:
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   Intel GenuineIntel
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   AMD AuthenticAMD
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   Centaur CentaurHauls
+Oct 16 06:08:15 precise64 kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 0000000007ff0000 (usable)
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 0000000007ff0000 - 0000000008000000 (ACPI data)
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 16 06:08:15 precise64 kernel: [    0.000000] DMI 2.5 present.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 16 06:08:15 precise64 kernel: [    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] No AGP bridge found
+Oct 16 06:08:15 precise64 kernel: [    0.000000] last_pfn = 0x7ff0 max_arch_pfn = 0x400000000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] MTRR default type: uncachable
+Oct 16 06:08:15 precise64 kernel: [    0.000000] MTRR variable ranges disabled:
+Oct 16 06:08:15 precise64 kernel: [    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+Oct 16 06:08:15 precise64 kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] found SMP MP-table at [ffff88000009fff0] 9fff0
+Oct 16 06:08:15 precise64 kernel: [    0.000000] initial memory mapped : 0 - 20000000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Base memory trampoline at [ffff88000009a000] 9a000 size 20480
+Oct 16 06:08:15 precise64 kernel: [    0.000000] init_memory_mapping: 0000000000000000-0000000007ff0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  0000000000 - 0007e00000 page 2M
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  0007e00000 - 0007ff0000 page 4k
+Oct 16 06:08:15 precise64 kernel: [    0.000000] kernel direct mapping tables up to 7ff0000 @ 7fed000-7ff0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] RAMDISK: 06857000 - 07664000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: XSDT 0000000007ff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: FACP 0000000007ff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: DSDT 0000000007ff0470 01BF1 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: FACS 0000000007ff0200 00040
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: APIC 0000000007ff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: SSDT 0000000007ff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] No NUMA configuration found
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Faking a node at 0000000000000000-0000000007ff0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Initmem setup node 0 0000000000000000-0000000007ff0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   NODE_DATA [0000000007fe8000 - 0000000007fecfff]
+Oct 16 06:08:15 precise64 kernel: [    0.000000]  [ffffea0000000000-ffffea00001fffff] PMD -> [ffff880006600000-ffff8800067fffff] on node 0
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Zone PFN ranges:
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA      0x00000010 -> 0x00001000
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA32    0x00001000 -> 0x00100000
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   Normal   empty
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Movable zone start PFN for each node
+Oct 16 06:08:15 precise64 kernel: [    0.000000] early_node_map[2] active PFN ranges
+Oct 16 06:08:15 precise64 kernel: [    0.000000]     0: 0x00000010 -> 0x0000009f
+Oct 16 06:08:15 precise64 kernel: [    0.000000]     0: 0x00000100 -> 0x00007ff0
+Oct 16 06:08:15 precise64 kernel: [    0.000000] On node 0 totalpages: 32639
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA zone: 5 pages reserved
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA zone: 3914 pages, LIFO batch:0
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA32 zone: 448 pages used for memmap
+Oct 16 06:08:15 precise64 kernel: [    0.000000]   DMA32 zone: 28208 pages, LIFO batch:7
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Oct 16 06:08:15 precise64 kernel: [    0.000000] IOAPIC[0]: apic_id 2, version 17, address 0xfec00000, GSI 0-23
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 16 06:08:15 precise64 kernel: [    0.000000] SMP: Allowing 2 CPUs, 0 hotplug CPUs
+Oct 16 06:08:15 precise64 kernel: [    0.000000] nr_irqs_gsi: 40
+Oct 16 06:08:15 precise64 kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Allocating PCI resources starting at 8000000 (gap: 8000000:f7fc0000)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Booting paravirtualized kernel on bare hardware
+Oct 16 06:08:15 precise64 kernel: [    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:2 nr_node_ids:1
+Oct 16 06:08:15 precise64 kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff880007c00000 s83072 r8192 d23424 u1048576
+Oct 16 06:08:15 precise64 kernel: [    0.000000] pcpu-alloc: s83072 r8192 d23424 u1048576 alloc=1*2097152
+Oct 16 06:08:15 precise64 kernel: [    0.000000] pcpu-alloc: [0] 0 1 
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 32122
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Policy zone: DMA32
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.2.0-23-generic root=/dev/mapper/precise64-root ro quiet
+Oct 16 06:08:15 precise64 kernel: [    0.000000] PID hash table entries: 512 (order: 0, 4096 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Checking aperture...
+Oct 16 06:08:15 precise64 kernel: [    0.000000] No AGP bridge found
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Memory: 98108k/131008k available (6566k kernel code, 452k absent, 32448k reserved, 6637k data, 920k init)
+Oct 16 06:08:15 precise64 kernel: [    0.000000] SLUB: Genslabs=15, HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Oct 16 06:08:15 precise64 kernel: [    0.000000] NR_IRQS:16640 nr_irqs:512 16
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Console: colour dummy device 80x25
+Oct 16 06:08:15 precise64 kernel: [    0.000000] console [tty0] enabled
+Oct 16 06:08:15 precise64 kernel: [    0.000000] allocated 1048576 bytes of page_cgroup
+Oct 16 06:08:15 precise64 kernel: [    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Fast TSC calibration failed
+Oct 16 06:08:15 precise64 kernel: [    0.000000] TSC: Unable to calibrate against PIT
+Oct 16 06:08:15 precise64 kernel: [    0.000000] TSC: using PMTIMER reference calibration
+Oct 16 06:08:15 precise64 kernel: [    0.000000] Detected 1795.421 MHz processor.
+Oct 16 06:08:15 precise64 kernel: [    0.016014] Calibrating delay loop (skipped), value calculated using timer frequency.. 3590.84 BogoMIPS (lpj=7181684)
+Oct 16 06:08:15 precise64 kernel: [    0.016026] pid_max: default: 32768 minimum: 301
+Oct 16 06:08:15 precise64 kernel: [    0.016070] Security Framework initialized
+Oct 16 06:08:15 precise64 kernel: [    0.016110] AppArmor: AppArmor initialized
+Oct 16 06:08:15 precise64 kernel: [    0.016117] Yama: becoming mindful.
+Oct 16 06:08:15 precise64 kernel: [    0.016220] Dentry cache hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.016321] Inode-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.016370] Mount-cache hash table entries: 256
+Oct 16 06:08:15 precise64 kernel: [    0.016548] Initializing cgroup subsys cpuacct
+Oct 16 06:08:15 precise64 kernel: [    0.016557] Initializing cgroup subsys memory
+Oct 16 06:08:15 precise64 kernel: [    0.016568] Initializing cgroup subsys devices
+Oct 16 06:08:15 precise64 kernel: [    0.016574] Initializing cgroup subsys freezer
+Oct 16 06:08:15 precise64 kernel: [    0.016580] Initializing cgroup subsys blkio
+Oct 16 06:08:15 precise64 kernel: [    0.016592] Initializing cgroup subsys perf_event
+Oct 16 06:08:15 precise64 kernel: [    0.016749] CPU: Physical Processor ID: 0
+Oct 16 06:08:15 precise64 kernel: [    0.016754] CPU: Processor Core ID: 0
+Oct 16 06:08:15 precise64 kernel: [    0.016763] mce: CPU supports 0 MCE banks
+Oct 16 06:08:15 precise64 kernel: [    0.040969] ACPI: Core revision 20110623
+Oct 16 06:08:15 precise64 kernel: [    0.043053] ftrace: allocating 27049 entries in 107 pages
+Oct 16 06:08:15 precise64 kernel: [    0.052714] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 16 06:08:15 precise64 kernel: [    0.094591] CPU0: Intel(R) Core(TM) i3-3217U CPU @ 1.80GHz stepping 09
+Oct 16 06:08:15 precise64 kernel: [    0.096005] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+Oct 16 06:08:15 precise64 kernel: [    0.096005] NMI watchdog disabled (cpu0): hardware events not enabled
+Oct 16 06:08:15 precise64 kernel: [    0.096005] Booting Node   0, Processors  #1 Ok.
+Oct 16 06:08:15 precise64 kernel: [    0.096005] smpboot cpu 1: start_ip = 9a000
+Oct 16 06:08:15 precise64 kernel: [    0.020001] calibrate_delay_direct() dropping min bogoMips estimate 2 = 6499434
+Oct 16 06:08:15 precise64 kernel: [    0.020001] calibrate_delay_direct() dropping min bogoMips estimate 3 = 7182249
+Oct 16 06:08:15 precise64 kernel: [    0.020001] calibrate_delay_direct() dropping min bogoMips estimate 4 = 7298659
+Oct 16 06:08:15 precise64 kernel: [    0.020001] mce: CPU supports 0 MCE banks
+Oct 16 06:08:15 precise64 kernel: [    0.188099] NMI watchdog disabled (cpu1): hardware events not enabled
+Oct 16 06:08:15 precise64 kernel: [    0.188221] Brought up 2 CPUs
+Oct 16 06:08:15 precise64 kernel: [    0.188231] Total of 2 processors activated (8015.77 BogoMIPS).
+Oct 16 06:08:15 precise64 kernel: [    0.189170] devtmpfs: initialized
+Oct 16 06:08:15 precise64 kernel: [    0.189170] EVM: security.selinux
+Oct 16 06:08:15 precise64 kernel: [    0.189170] EVM: security.SMACK64
+Oct 16 06:08:15 precise64 kernel: [    0.189170] EVM: security.capability
+Oct 16 06:08:15 precise64 kernel: [    0.192535] print_constraints: dummy: 
+Oct 16 06:08:15 precise64 kernel: [    0.192606] RTC time:  6:06:47, date: 10/16/15
+Oct 16 06:08:15 precise64 kernel: [    0.192696] NET: Registered protocol family 16
+Oct 16 06:08:15 precise64 kernel: [    0.193077] ACPI: bus type pci registered
+Oct 16 06:08:15 precise64 kernel: [    0.192935] Trying to unpack rootfs image as initramfs...
+Oct 16 06:08:15 precise64 kernel: [    0.193307] PCI: Using configuration type 1 for base access
+Oct 16 06:08:15 precise64 kernel: [    0.208221] bio: create slab <bio-0> at 0
+Oct 16 06:08:15 precise64 kernel: [    0.208428] ACPI: Added _OSI(Module Device)
+Oct 16 06:08:15 precise64 kernel: [    0.208428] ACPI: Added _OSI(Processor Device)
+Oct 16 06:08:15 precise64 kernel: [    0.208428] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 16 06:08:15 precise64 kernel: [    0.208428] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 16 06:08:15 precise64 kernel: [    0.209138] ACPI: EC: Look up EC in DSDT
+Oct 16 06:08:15 precise64 kernel: [    0.209738] ACPI: Executed 1 blocks of module-level executable AML code
+Oct 16 06:08:15 precise64 kernel: [    0.215319] ACPI: Interpreter enabled
+Oct 16 06:08:15 precise64 kernel: [    0.215329] ACPI: (supports S0 S5)
+Oct 16 06:08:15 precise64 kernel: [    0.215353] ACPI: Using IOAPIC for interrupt routing
+Oct 16 06:08:15 precise64 kernel: [    0.218345] ACPI: No dock devices found.
+Oct 16 06:08:15 precise64 kernel: [    0.218352] HEST: Table not found.
+Oct 16 06:08:15 precise64 kernel: [    0.218359] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Oct 16 06:08:15 precise64 kernel: [    0.218440] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 16 06:08:15 precise64 kernel: [    0.218602] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Oct 16 06:08:15 precise64 kernel: [    0.218609] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Oct 16 06:08:15 precise64 kernel: [    0.218615] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Oct 16 06:08:15 precise64 kernel: [    0.218621] pci_root PNP0A03:00: host bridge window [mem 0x08000000-0xffdfffff] (ignored)
+Oct 16 06:08:15 precise64 kernel: [    0.218688] pci 0000:00:00.0: [8086:1237] type 0 class 0x000600
+Oct 16 06:08:15 precise64 kernel: [    0.219266] pci 0000:00:01.0: [8086:7000] type 0 class 0x000601
+Oct 16 06:08:15 precise64 kernel: [    0.220753] pci 0000:00:01.1: [8086:7111] type 0 class 0x000101
+Oct 16 06:08:15 precise64 kernel: [    0.221328] pci 0000:00:01.1: reg 20: [io  0xd000-0xd00f]
+Oct 16 06:08:15 precise64 kernel: [    0.221761] pci 0000:00:02.0: [80ee:beef] type 0 class 0x000300
+Oct 16 06:08:15 precise64 kernel: [    0.222592] pci 0000:00:02.0: reg 10: [mem 0xe0000000-0xe07fffff pref]
+Oct 16 06:08:15 precise64 kernel: [    0.227124] pci 0000:00:03.0: [8086:100e] type 0 class 0x000200
+Oct 16 06:08:15 precise64 kernel: [    0.227600] pci 0000:00:03.0: reg 10: [mem 0xf0000000-0xf001ffff]
+Oct 16 06:08:15 precise64 kernel: [    0.228186] pci 0000:00:03.0: reg 18: [io  0xd010-0xd017]
+Oct 16 06:08:15 precise64 kernel: [    0.230159] pci 0000:00:04.0: [80ee:cafe] type 0 class 0x000880
+Oct 16 06:08:15 precise64 kernel: [    0.230785] pci 0000:00:04.0: reg 10: [io  0xd020-0xd03f]
+Oct 16 06:08:15 precise64 kernel: [    0.231529] pci 0000:00:04.0: reg 14: [mem 0xf0400000-0xf07fffff]
+Oct 16 06:08:15 precise64 kernel: [    0.231884] pci 0000:00:04.0: reg 18: [mem 0xf0800000-0xf0803fff pref]
+Oct 16 06:08:15 precise64 kernel: [    0.233525] pci 0000:00:07.0: [8086:7113] type 0 class 0x000680
+Oct 16 06:08:15 precise64 kernel: [    0.235258] pci 0000:00:08.0: [8086:100e] type 0 class 0x000200
+Oct 16 06:08:15 precise64 kernel: [    0.236255] pci 0000:00:08.0: reg 10: [mem 0xf0820000-0xf083ffff]
+Oct 16 06:08:15 precise64 kernel: [    0.237781] pci 0000:00:08.0: reg 18: [io  0xd040-0xd047]
+Oct 16 06:08:15 precise64 kernel: [    0.239859] pci 0000:00:0d.0: [8086:2829] type 0 class 0x000106
+Oct 16 06:08:15 precise64 kernel: [    0.240507] pci 0000:00:0d.0: reg 10: [io  0xd048-0xd04f]
+Oct 16 06:08:15 precise64 kernel: [    0.241214] pci 0000:00:0d.0: reg 18: [io  0xd058-0xd05f]
+Oct 16 06:08:15 precise64 kernel: [    0.242957] pci 0000:00:0d.0: reg 20: [io  0xd070-0xd07f]
+Oct 16 06:08:15 precise64 kernel: [    0.248195] pci 0000:00:0d.0: reg 24: [mem 0xf0840000-0xf0841fff]
+Oct 16 06:08:15 precise64 kernel: [    0.249251] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct 16 06:08:15 precise64 kernel: [    0.250248]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x1e)
+Oct 16 06:08:15 precise64 kernel: [    0.255644] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 16 06:08:15 precise64 kernel: [    0.255988] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 10 *11)
+Oct 16 06:08:15 precise64 kernel: [    0.256175] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 *10 11)
+Oct 16 06:08:15 precise64 kernel: [    0.256294] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 *9 10 11)
+Oct 16 06:08:15 precise64 kernel: [    0.256546] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Oct 16 06:08:15 precise64 kernel: [    0.256555] vgaarb: loaded
+Oct 16 06:08:15 precise64 kernel: [    0.256562] vgaarb: bridge control possible 0000:00:02.0
+Oct 16 06:08:15 precise64 kernel: [    0.256827] i2c-core: driver [aat2870] using legacy suspend method
+Oct 16 06:08:15 precise64 kernel: [    0.256835] i2c-core: driver [aat2870] using legacy resume method
+Oct 16 06:08:15 precise64 kernel: [    0.256987] SCSI subsystem initialized
+Oct 16 06:08:15 precise64 kernel: [    0.257170] libata version 3.00 loaded.
+Oct 16 06:08:15 precise64 kernel: [    0.257296] usbcore: registered new interface driver usbfs
+Oct 16 06:08:15 precise64 kernel: [    0.257331] usbcore: registered new interface driver hub
+Oct 16 06:08:15 precise64 kernel: [    0.257455] usbcore: registered new device driver usb
+Oct 16 06:08:15 precise64 kernel: [    0.257723] PCI: Using ACPI for IRQ routing
+Oct 16 06:08:15 precise64 kernel: [    0.257739] PCI: pci_cache_line_size set to 64 bytes
+Oct 16 06:08:15 precise64 kernel: [    0.258137] reserve RAM buffer: 000000000009fc00 - 000000000009ffff 
+Oct 16 06:08:15 precise64 kernel: [    0.258154] reserve RAM buffer: 0000000007ff0000 - 0000000007ffffff 
+Oct 16 06:08:15 precise64 kernel: [    0.258365] NetLabel: Initializing
+Oct 16 06:08:15 precise64 kernel: [    0.258374] NetLabel:  domain hash size = 128
+Oct 16 06:08:15 precise64 kernel: [    0.258380] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct 16 06:08:15 precise64 kernel: [    0.258425] NetLabel:  unlabeled traffic allowed by default
+Oct 16 06:08:15 precise64 kernel: [    0.275751] AppArmor: AppArmor Filesystem Enabled
+Oct 16 06:08:15 precise64 kernel: [    0.275800] pnp: PnP ACPI init
+Oct 16 06:08:15 precise64 kernel: [    0.275832] ACPI: bus type pnp registered
+Oct 16 06:08:15 precise64 kernel: [    0.275974] pnp 00:00: [bus 00-ff]
+Oct 16 06:08:15 precise64 kernel: [    0.276038] pnp 00:00: [io  0x0cf8-0x0cff]
+Oct 16 06:08:15 precise64 kernel: [    0.276048] pnp 00:00: [io  0x0000-0x0cf7 window]
+Oct 16 06:08:15 precise64 kernel: [    0.276057] pnp 00:00: [io  0x0d00-0xffff window]
+Oct 16 06:08:15 precise64 kernel: [    0.276066] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+Oct 16 06:08:15 precise64 kernel: [    0.276075] pnp 00:00: [mem 0x08000000-0xffdfffff window]
+Oct 16 06:08:15 precise64 kernel: [    0.276147] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+Oct 16 06:08:15 precise64 kernel: [    0.276189] pnp 00:01: [io  0x0060]
+Oct 16 06:08:15 precise64 kernel: [    0.276198] pnp 00:01: [io  0x0064]
+Oct 16 06:08:15 precise64 kernel: [    0.276259] pnp 00:01: [irq 1]
+Oct 16 06:08:15 precise64 kernel: [    0.276318] pnp 00:01: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 16 06:08:15 precise64 kernel: [    0.276343] pnp 00:02: [io  0x0000-0x000f]
+Oct 16 06:08:15 precise64 kernel: [    0.276352] pnp 00:02: [io  0x0080-0x008f]
+Oct 16 06:08:15 precise64 kernel: [    0.276369] pnp 00:02: [io  0x00c0-0x00df]
+Oct 16 06:08:15 precise64 kernel: [    0.276379] pnp 00:02: [dma 4]
+Oct 16 06:08:15 precise64 kernel: [    0.276424] pnp 00:02: Plug and Play ACPI device, IDs PNP0200 (active)
+Oct 16 06:08:15 precise64 kernel: [    0.276558] pnp 00:03: [irq 12]
+Oct 16 06:08:15 precise64 kernel: [    0.276613] pnp 00:03: Plug and Play ACPI device, IDs PNP0f03 (active)
+Oct 16 06:08:15 precise64 kernel: [    0.276645] pnp 00:04: [io  0x0378-0x037f]
+Oct 16 06:08:15 precise64 kernel: [    0.276654] pnp 00:04: [io  0x0778-0x077f]
+Oct 16 06:08:15 precise64 kernel: [    0.276704] pnp 00:04: [irq 7]
+Oct 16 06:08:15 precise64 kernel: [    0.276763] pnp 00:04: Plug and Play ACPI device, IDs PNP0400 (active)
+Oct 16 06:08:15 precise64 kernel: [    0.277862] pnp: PnP ACPI: found 5 devices
+Oct 16 06:08:15 precise64 kernel: [    0.277872] ACPI: ACPI bus type pnp unregistered
+Oct 16 06:08:15 precise64 kernel: [    0.288480] Switching to clocksource acpi_pm
+Oct 16 06:08:15 precise64 kernel: [    0.288593] PCI: max bus depth: 0 pci_try_num: 1
+Oct 16 06:08:15 precise64 kernel: [    0.288611] pci_bus 0000:00: resource 0 [io  0x0000-0xffff]
+Oct 16 06:08:15 precise64 kernel: [    0.288620] pci_bus 0000:00: resource 1 [mem 0x00000000-0xfffffffff]
+Oct 16 06:08:15 precise64 kernel: [    0.288688] NET: Registered protocol family 2
+Oct 16 06:08:15 precise64 kernel: [    0.288794] IP route cache hash table entries: 1024 (order: 1, 8192 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.289151] TCP established hash table entries: 4096 (order: 4, 65536 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.289197] TCP bind hash table entries: 4096 (order: 4, 65536 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.289227] TCP: Hash tables configured (established 4096 bind 4096)
+Oct 16 06:08:15 precise64 kernel: [    0.289235] TCP reno registered
+Oct 16 06:08:15 precise64 kernel: [    0.289248] UDP hash table entries: 128 (order: 0, 4096 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.289262] UDP-Lite hash table entries: 128 (order: 0, 4096 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.289348] NET: Registered protocol family 1
+Oct 16 06:08:15 precise64 kernel: [    0.289372] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 16 06:08:15 precise64 kernel: [    0.289447] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 16 06:08:15 precise64 kernel: [    0.289523] pci 0000:00:02.0: Boot video device
+Oct 16 06:08:15 precise64 kernel: [    0.289658] PCI: CLS 0 bytes, default 64
+Oct 16 06:08:15 precise64 kernel: [    0.289889] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 16 06:08:15 precise64 kernel: [    0.290499] audit: initializing netlink socket (disabled)
+Oct 16 06:08:15 precise64 kernel: [    0.290529] type=2000 audit(1444975606.288:1): initialized
+Oct 16 06:08:15 precise64 kernel: [    0.326179] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 16 06:08:15 precise64 kernel: [    0.329362] VFS: Disk quotas dquot_6.5.2
+Oct 16 06:08:15 precise64 kernel: [    0.329429] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 16 06:08:15 precise64 kernel: [    0.330099] fuse init (API version 7.17)
+Oct 16 06:08:15 precise64 kernel: [    0.330233] msgmni has been set to 191
+Oct 16 06:08:15 precise64 kernel: [    0.331737] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Oct 16 06:08:15 precise64 kernel: [    0.331832] io scheduler noop registered
+Oct 16 06:08:15 precise64 kernel: [    0.331838] io scheduler deadline registered
+Oct 16 06:08:15 precise64 kernel: [    0.331883] io scheduler cfq registered (default)
+Oct 16 06:08:15 precise64 kernel: [    0.333081] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 16 06:08:15 precise64 kernel: [    0.333111] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 16 06:08:15 precise64 kernel: [    0.333257] ACPI: Deprecated procfs I/F for AC is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Oct 16 06:08:15 precise64 kernel: [    0.333350] ACPI: AC Adapter [AC] (on-line)
+Oct 16 06:08:15 precise64 kernel: [    0.333423] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Oct 16 06:08:15 precise64 kernel: [    0.333432] ACPI: Power Button [PWRF]
+Oct 16 06:08:15 precise64 kernel: [    0.333536] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Oct 16 06:08:15 precise64 kernel: [    0.333544] ACPI: Sleep Button [SLPF]
+Oct 16 06:08:15 precise64 kernel: [    0.334998] ACPI: Deprecated procfs I/F for battery is loaded, please retry with CONFIG_ACPI_PROCFS_POWER cleared
+Oct 16 06:08:15 precise64 kernel: [    0.335039] ACPI: Battery Slot [BAT0] (battery present)
+Oct 16 06:08:15 precise64 kernel: [    0.335064] ERST: Table is not found!
+Oct 16 06:08:15 precise64 kernel: [    0.335069] GHES: HEST is not enabled!
+Oct 16 06:08:15 precise64 kernel: [    0.335272] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Oct 16 06:08:15 precise64 kernel: [    0.337609] ACPI: Battery Slot [BAT0] (battery present)
+Oct 16 06:08:15 precise64 kernel: [    0.627082] Freeing initrd memory: 14388k freed
+Oct 16 06:08:15 precise64 kernel: [    0.684003] Linux agpgart interface v0.103
+Oct 16 06:08:15 precise64 kernel: [    0.691422] brd: module loaded
+Oct 16 06:08:15 precise64 kernel: [    0.695149] loop: module loaded
+Oct 16 06:08:15 precise64 kernel: [    0.695354] ahci 0000:00:0d.0: version 3.0
+Oct 16 06:08:15 precise64 kernel: [    0.695459] ahci 0000:00:0d.0: PCI INT A -> GSI 21 (level, low) -> IRQ 21
+Oct 16 06:08:15 precise64 kernel: [    0.695740] ahci: SSS flag set, parallel bus scan disabled
+Oct 16 06:08:15 precise64 kernel: [    0.696184] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 16 06:08:15 precise64 kernel: [    0.696197] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 16 06:08:15 precise64 kernel: [    0.696268] ahci 0000:00:0d.0: setting latency timer to 64
+Oct 16 06:08:15 precise64 kernel: [    0.699421] scsi0 : ahci
+Oct 16 06:08:15 precise64 kernel: [    0.699595] ata1: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Oct 16 06:08:15 precise64 kernel: [    0.699745] ata_piix 0000:00:01.1: version 2.13
+Oct 16 06:08:15 precise64 kernel: [    0.699879] ata_piix 0000:00:01.1: setting latency timer to 64
+Oct 16 06:08:15 precise64 kernel: [    0.701459] scsi1 : ata_piix
+Oct 16 06:08:15 precise64 kernel: [    0.701931] scsi2 : ata_piix
+Oct 16 06:08:15 precise64 kernel: [    0.702063] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 16 06:08:15 precise64 kernel: [    0.702076] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 16 06:08:15 precise64 kernel: [    0.702785] Fixed MDIO Bus: probed
+Oct 16 06:08:15 precise64 kernel: [    0.702943] tun: Universal TUN/TAP device driver, 1.6
+Oct 16 06:08:15 precise64 kernel: [    0.702953] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+Oct 16 06:08:15 precise64 kernel: [    0.703090] PPP generic driver version 2.4.2
+Oct 16 06:08:15 precise64 kernel: [    0.703274] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 16 06:08:15 precise64 kernel: [    0.703309] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 16 06:08:15 precise64 kernel: [    0.703329] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 16 06:08:15 precise64 kernel: [    0.703394] usbcore: registered new interface driver libusual
+Oct 16 06:08:15 precise64 kernel: [    0.703479] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 16 06:08:15 precise64 kernel: [    0.706171] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 16 06:08:15 precise64 kernel: [    0.706218] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 16 06:08:15 precise64 kernel: [    0.707156] mousedev: PS/2 mouse device common for all mice
+Oct 16 06:08:15 precise64 kernel: [    0.709247] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Oct 16 06:08:15 precise64 kernel: [    0.710974] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Oct 16 06:08:15 precise64 kernel: [    0.711160] rtc0: alarms up to one day, 114 bytes nvram
+Oct 16 06:08:15 precise64 kernel: [    0.711368] device-mapper: uevent: version 1.0.3
+Oct 16 06:08:15 precise64 kernel: [    0.711826] device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+Oct 16 06:08:15 precise64 kernel: [    0.711853] cpuidle: using governor ladder
+Oct 16 06:08:15 precise64 kernel: [    0.711877] cpuidle: using governor menu
+Oct 16 06:08:15 precise64 kernel: [    0.711884] EFI Variables Facility v0.08 2004-May-17
+Oct 16 06:08:15 precise64 kernel: [    0.712389] TCP cubic registered
+Oct 16 06:08:15 precise64 kernel: [    0.712618] NET: Registered protocol family 10
+Oct 16 06:08:15 precise64 kernel: [    0.713497] NET: Registered protocol family 17
+Oct 16 06:08:15 precise64 kernel: [    0.713547] Registering the dns_resolver key type
+Oct 16 06:08:15 precise64 kernel: [    0.715033] PM: Hibernation image not present or could not be loaded.
+Oct 16 06:08:15 precise64 kernel: [    0.715084] registered taskstats version 1
+Oct 16 06:08:15 precise64 kernel: [    0.742449]   Magic number: 3:924:114
+Oct 16 06:08:15 precise64 kernel: [    0.742854] rtc_cmos rtc_cmos: setting system clock to 2015-10-16 06:06:47 UTC (1444975607)
+Oct 16 06:08:15 precise64 kernel: [    0.742998] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+Oct 16 06:08:15 precise64 kernel: [    0.743007] EDD information not available.
+Oct 16 06:08:15 precise64 kernel: [    0.857974] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 16 06:08:15 precise64 kernel: [    0.858543] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 16 06:08:15 precise64 kernel: [    0.860239] ata2.00: configured for UDMA/33
+Oct 16 06:08:15 precise64 kernel: [    0.861000] ata3.00: configured for UDMA/33
+Oct 16 06:08:15 precise64 kernel: [    1.019843] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 16 06:08:15 precise64 kernel: [    1.020440] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 16 06:08:15 precise64 kernel: [    1.020465] ata1.00: 167772160 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Oct 16 06:08:15 precise64 kernel: [    1.020945] ata1.00: configured for UDMA/133
+Oct 16 06:08:15 precise64 kernel: [    1.021588] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 16 06:08:15 precise64 kernel: [    1.021873] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 16 06:08:15 precise64 kernel: [    1.021968] sd 0:0:0:0: [sda] 167772160 512-byte logical blocks: (85.8 GB/80.0 GiB)
+Oct 16 06:08:15 precise64 kernel: [    1.022551] sd 0:0:0:0: [sda] Write Protect is off
+Oct 16 06:08:15 precise64 kernel: [    1.022559] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 16 06:08:15 precise64 kernel: [    1.022577] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 16 06:08:15 precise64 kernel: [    1.022638] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 16 06:08:15 precise64 kernel: [    1.024221] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 16 06:08:15 precise64 kernel: [    1.024240] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 16 06:08:15 precise64 kernel: [    1.024697] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Oct 16 06:08:15 precise64 kernel: [    1.026970] sr 1:0:0:0: Attached scsi generic sg1 type 5
+Oct 16 06:08:15 precise64 kernel: [    1.028255] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 16 06:08:15 precise64 kernel: [    1.030005] sr1: scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 16 06:08:15 precise64 kernel: [    1.030458] sr 2:0:0:0: Attached scsi CD-ROM sr1
+Oct 16 06:08:15 precise64 kernel: [    1.030802] sr 2:0:0:0: Attached scsi generic sg2 type 5
+Oct 16 06:08:15 precise64 kernel: [    1.166004]  sda: sda1 sda2 < sda5 >
+Oct 16 06:08:15 precise64 kernel: [    1.168374] sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 16 06:08:15 precise64 kernel: [    1.170324] Freeing unused kernel memory: 920k freed
+Oct 16 06:08:15 precise64 kernel: [    1.170495] Write protecting the kernel read-only data: 12288k
+Oct 16 06:08:15 precise64 kernel: [    1.177100] Freeing unused kernel memory: 1608k freed
+Oct 16 06:08:15 precise64 kernel: [    1.181787] Freeing unused kernel memory: 1196k freed
+Oct 16 06:08:15 precise64 kernel: [    1.320362] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 16 06:08:15 precise64 kernel: [    1.320371] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 16 06:08:15 precise64 kernel: [    1.324161] Refined TSC clocksource calibration: 1795.499 MHz.
+Oct 16 06:08:15 precise64 kernel: [    1.324173] Switching to clocksource tsc
+Oct 16 06:08:15 precise64 kernel: [    1.337605] e1000 0000:00:03.0: PCI INT A -> GSI 19 (level, low) -> IRQ 19
+Oct 16 06:08:15 precise64 kernel: [    1.337646] e1000 0000:00:03.0: setting latency timer to 64
+Oct 16 06:08:15 precise64 kernel: [    1.827133] e1000 0000:00:03.0: eth0: (PCI:33MHz:32-bit) 08:00:27:88:0c:a6
+Oct 16 06:08:15 precise64 kernel: [    1.827156] e1000 0000:00:03.0: eth0: Intel(R) PRO/1000 Network Connection
+Oct 16 06:08:15 precise64 kernel: [    1.827283] e1000 0000:00:08.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Oct 16 06:08:15 precise64 kernel: [    1.827338] e1000 0000:00:08.0: setting latency timer to 64
+Oct 16 06:08:15 precise64 kernel: [    2.278618] e1000 0000:00:08.0: eth1: (PCI:33MHz:32-bit) 08:00:27:e6:6c:50
+Oct 16 06:08:15 precise64 kernel: [    2.278631] e1000 0000:00:08.0: eth1: Intel(R) PRO/1000 Network Connection
+Oct 16 06:08:15 precise64 kernel: [    7.351872] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Oct 16 06:08:15 precise64 kernel: [   46.201277] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 16 06:08:15 precise64 kernel: [   46.201295] ADDRCONF(NETDEV_UP): eth1: link is not ready
+Oct 16 06:08:15 precise64 kernel: [   48.599275] Adding 786428k swap on /dev/mapper/precise64-swap_1.  Priority:-1 extents:1 across:786428k 
+Oct 16 06:08:15 precise64 kernel: [   55.042895] lp: driver loaded but no devices found
+Oct 16 06:08:15 precise64 kernel: [   55.432138] parport_pc 00:04: reported by Plug and Play ACPI
+Oct 16 06:08:15 precise64 kernel: [   55.763092] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input3
+Oct 16 06:08:15 precise64 kernel: [   55.763257] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 16 06:08:15 precise64 kernel: [   55.815412] ppdev: user-space parallel port driver
+Oct 16 06:08:15 precise64 kernel: [   56.311179] vboxguest 0000:00:04.0: PCI INT A -> GSI 20 (level, low) -> IRQ 20
+Oct 16 06:08:15 precise64 kernel: [   56.313201] input: Unspecified device as /devices/pci0000:00/0000:00:04.0/input/input4
+Oct 16 06:08:15 precise64 kernel: [   56.315399] vboxguest: major 0, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Oct 16 06:08:15 precise64 kernel: [   56.315407] vboxguest: Successfully loaded version 4.2.0 (interface 0x00010004)
+Oct 16 06:08:15 precise64 kernel: [   56.787628] piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+Oct 16 06:08:15 precise64 kernel: [   56.884987] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 16 06:08:15 precise64 kernel: [   69.335278] type=1400 audit(1444975676.089:2): apparmor="STATUS" operation="profile_load" name="/sbin/dhclient" pid=480 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.335472] type=1400 audit(1444975676.089:3): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=479 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.335904] type=1400 audit(1444975676.089:4): apparmor="STATUS" operation="profile_load" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=480 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.336306] type=1400 audit(1444975676.093:5): apparmor="STATUS" operation="profile_load" name="/usr/lib/connman/scripts/dhclient-script" pid=480 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.336446] type=1400 audit(1444975676.093:6): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=479 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.336974] type=1400 audit(1444975676.093:7): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=479 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.337764] type=1400 audit(1444975676.093:8): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=450 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.339316] type=1400 audit(1444975676.093:9): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=450 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   69.339933] type=1400 audit(1444975676.093:10): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=450 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   70.171962] type=1400 audit(1444975676.925:11): apparmor="STATUS" operation="profile_load" name="/usr/sbin/ntpd" pid=498 comm="apparmor_parser"
+Oct 16 06:08:15 precise64 kernel: [   74.145058] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 16 06:08:15 precise64 kernel: [   81.171657] vesafb: mode is 640x480x32, linelength=2560, pages=0
+Oct 16 06:08:15 precise64 kernel: [   81.171668] vesafb: scrolling: redraw
+Oct 16 06:08:15 precise64 kernel: [   81.171680] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+Oct 16 06:08:15 precise64 kernel: [   81.171703] mtrr: your processor doesn't support write-combining
+Oct 16 06:08:15 precise64 kernel: [   81.172153] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90000e80000, using 1216k, total 1216k
+Oct 16 06:08:15 precise64 kernel: [   81.172952] Console: switching to colour frame buffer device 80x30
+Oct 16 06:08:15 precise64 kernel: [   81.179522] fb0: VESA VGA frame buffer device
+Oct 16 06:08:15 precise64 kernel: [   82.497481] EXT4-fs (dm-0): re-mounted. Opts: errors=remount-ro
+Oct 16 06:08:15 precise64 kernel: [   84.497987] RPC: Registered named UNIX socket transport module.
+Oct 16 06:08:15 precise64 kernel: [   84.497999] RPC: Registered udp transport module.
+Oct 16 06:08:15 precise64 kernel: [   84.498007] RPC: Registered tcp transport module.
+Oct 16 06:08:15 precise64 kernel: [   84.498015] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct 16 06:08:15 precise64 kernel: [   84.780479] FS-Cache: Loaded
+Oct 16 06:08:15 precise64 kernel: [   84.855820] init: failsafe main process (676) killed by TERM signal
+Oct 16 06:08:15 precise64 kernel: [   84.922062] FS-Cache: Netfs 'nfs' registered for caching
+Oct 16 06:08:15 precise64 kernel: [   85.005005] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct 16 06:08:15 precise64 kernel: [   85.024147] eth0: no IPv6 routers present
+Oct 16 06:08:16 precise64 kernel: [   89.660929] audit_printk_skb: 6 callbacks suppressed
+Oct 16 06:08:16 precise64 kernel: [   89.660942] type=1400 audit(1444975696.417:14): apparmor="STATUS" operation="profile_replace" name="/usr/sbin/ntpd" pid=757 comm="apparmor_parser"
+Oct 16 06:08:16 precise64 kernel: [   89.661383] type=1400 audit(1444975696.417:15): apparmor="STATUS" operation="profile_replace" name="/sbin/dhclient" pid=756 comm="apparmor_parser"
+Oct 16 06:08:16 precise64 kernel: [   89.662029] type=1400 audit(1444975696.417:16): apparmor="STATUS" operation="profile_replace" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=756 comm="apparmor_parser"
+Oct 16 06:08:16 precise64 kernel: [   89.662409] type=1400 audit(1444975696.417:17): apparmor="STATUS" operation="profile_replace" name="/usr/lib/connman/scripts/dhclient-script" pid=756 comm="apparmor_parser"
+Oct 16 06:08:16 precise64 kernel: [   90.008001] type=1400 audit(1444975696.761:18): apparmor="STATUS" operation="profile_load" name="/usr/sbin/tcpdump" pid=759 comm="apparmor_parser"
+Oct 16 06:08:18 precise64 ntpd[797]: ntpd 4.2.6p3@1.2290-o Tue Jun  5 20:12:08 UTC 2012 (1)
+Oct 16 06:08:18 precise64 cron[801]: (CRON) INFO (pidfile fd = 3)
+Oct 16 06:08:18 precise64 cron[821]: (CRON) STARTUP (fork ok)
+Oct 16 06:08:18 precise64 ntpd[802]: proto: precision = 6.745 usec
+Oct 16 06:08:18 precise64 ntpd[802]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Oct 16 06:08:18 precise64 ntpd[802]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: Listen and drop on 1 v6wildcard :: UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: Listen normally on 3 eth0 10.0.2.15 UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: Listen normally on 4 eth0 fe80::a00:27ff:fe88:ca6 UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: Listen normally on 5 lo ::1 UDP 123
+Oct 16 06:08:18 precise64 ntpd[802]: peers refreshed
+Oct 16 06:08:18 precise64 ntpd[802]: Listening on routing socket on fd #22 for interface updates
+Oct 16 06:08:18 precise64 cron[821]: (CRON) INFO (Running @reboot jobs)
+Oct 16 06:08:21 precise64 kernel: [   94.879901] vboxsf: Successfully loaded version 4.2.0 (interface 0x00010004)
+Oct 16 06:08:22 precise64 ntpdate[626]: Can't find host 1.ubuntu.pool.ntp.org: Name or service not known (-2)
+Oct 16 06:08:27 precise64 ntpdate[626]: the NTP socket is in use, exiting
+Oct 16 06:08:27 precise64 dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct 16 06:08:27 precise64 dhclient: DHCPREQUEST of 10.0.2.15 on eth0 to 255.255.255.255 port 67
+Oct 16 06:08:27 precise64 dhclient: DHCPOFFER of 10.0.2.15 from 10.0.2.2
+Oct 16 06:08:27 precise64 dhclient: DHCPACK of 10.0.2.15 from 10.0.2.2
+Oct 16 06:08:27 precise64 dhclient: bound to 10.0.2.15 -- renewal in 37218 seconds.
+Oct 16 06:08:27 precise64 kernel: [  101.204971] init: plymouth-upstart-bridge main process (755) killed by TERM signal
+Oct 16 06:08:36 precise64 kernel: [  110.144845] e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 16 06:08:36 precise64 kernel: [  110.146301] ADDRCONF(NETDEV_UP): eth1: link is not ready
+Oct 16 06:08:36 precise64 kernel: [  110.146333] ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Oct 16 06:08:36 precise64 ntpd[802]: ntpd exiting on signal 15
+Oct 16 06:08:47 precise64 kernel: [  120.240263] eth1: no IPv6 routers present
+Oct 16 06:08:50 precise64 ntpdate[1123]: step time server 120.88.46.10 offset 2.343182 sec
+Oct 16 06:08:55 precise64 ntpd[1222]: ntpd 4.2.6p3@1.2290-o Tue Jun  5 20:12:08 UTC 2012 (1)
+Oct 16 06:08:55 precise64 ntpd[1223]: proto: precision = 6.733 usec
+Oct 16 06:08:55 precise64 ntpd[1223]: ntp_io: estimated max descriptors: 1024, initial socket boundary: 16
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen and drop on 1 v6wildcard :: UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 2 lo 127.0.0.1 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 3 eth0 10.0.2.15 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 4 eth1 192.168.1.10 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 5 eth1 fe80::a00:27ff:fee6:6c50 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 6 eth0 fe80::a00:27ff:fe88:ca6 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: Listen normally on 7 lo ::1 UDP 123
+Oct 16 06:08:55 precise64 ntpd[1223]: peers refreshed
+Oct 16 06:08:55 precise64 ntpd[1223]: Listening on routing socket on fd #24 for interface updates
+Oct 16 06:17:01 precise64 CRON[1583]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 16 06:17:54 precise64 kernel: [  665.258053] ------------[ cut here ]------------
+Oct 16 06:17:54 precise64 kernel: [  665.258068] WARNING: at /build/buildd/linux-3.2.0/fs/dcache.c:1287 d_set_d_op+0x7c/0xb0()
+Oct 16 06:17:54 precise64 kernel: [  665.258074] Hardware name: VirtualBox
+Oct 16 06:17:54 precise64 kernel: [  665.258079] Modules linked in: vboxsf(O) nfsd nfs lockd fscache auth_rpcgss nfs_acl sunrpc ext2 vesafb mac_hid psmouse i2c_piix4 serio_raw vboxguest(O) ppdev video parport_pc lp parport e1000
+Oct 16 06:17:54 precise64 kernel: [  665.258106] Pid: 1586, comm: cp Tainted: G           O 3.2.0-23-generic #36-Ubuntu
+Oct 16 06:17:54 precise64 kernel: [  665.258111] Call Trace:
+Oct 16 06:17:54 precise64 kernel: [  665.258123]  [<ffffffff8106712f>] warn_slowpath_common+0x7f/0xc0
+Oct 16 06:17:54 precise64 kernel: [  665.258131]  [<ffffffff8106718a>] warn_slowpath_null+0x1a/0x20
+Oct 16 06:17:54 precise64 kernel: [  665.258138]  [<ffffffff8118d03c>] d_set_d_op+0x7c/0xb0
+Oct 16 06:17:54 precise64 kernel: [  665.258148]  [<ffffffffa01b134d>] sf_instantiate.isra.1+0xcd/0x180 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258156]  [<ffffffffa01b15af>] sf_create_aux+0x1af/0x250 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258164]  [<ffffffffa01b1683>] sf_create+0x13/0x20 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258172]  [<ffffffff811843a4>] vfs_create+0xb4/0x120
+Oct 16 06:17:54 precise64 kernel: [  665.258179]  [<ffffffff81185f79>] do_last+0x5c9/0x730
+Oct 16 06:17:54 precise64 kernel: [  665.258187]  [<ffffffff81187481>] path_openat+0xd1/0x3f0
+Oct 16 06:17:54 precise64 kernel: [  665.258194]  [<ffffffff81182dc5>] ? putname+0x35/0x50
+Oct 16 06:17:54 precise64 kernel: [  665.258201]  [<ffffffff811878c2>] do_filp_open+0x42/0xa0
+Oct 16 06:17:54 precise64 kernel: [  665.258210]  [<ffffffff81318ce1>] ? strncpy_from_user+0x31/0x40
+Oct 16 06:17:54 precise64 kernel: [  665.258217]  [<ffffffff81182c0a>] ? do_getname+0x10a/0x180
+Oct 16 06:17:54 precise64 kernel: [  665.258226]  [<ffffffff8165c46e>] ? _raw_spin_lock+0xe/0x20
+Oct 16 06:17:54 precise64 kernel: [  665.258233]  [<ffffffff81194b67>] ? alloc_fd+0xf7/0x150
+Oct 16 06:17:54 precise64 kernel: [  665.258241]  [<ffffffff81176f6d>] do_sys_open+0xed/0x220
+Oct 16 06:17:54 precise64 kernel: [  665.258248]  [<ffffffff811770c0>] sys_open+0x20/0x30
+Oct 16 06:17:54 precise64 kernel: [  665.258255]  [<ffffffff81664a82>] system_call_fastpath+0x16/0x1b
+Oct 16 06:17:54 precise64 kernel: [  665.258261] ---[ end trace 23f8f93b80804ea5 ]---
+Oct 16 06:17:54 precise64 kernel: [  665.258266] ------------[ cut here ]------------
+Oct 16 06:17:54 precise64 kernel: [  665.258274] WARNING: at /build/buildd/linux-3.2.0/fs/dcache.c:1291 d_set_d_op+0x9f/0xb0()
+Oct 16 06:17:54 precise64 kernel: [  665.258279] Hardware name: VirtualBox
+Oct 16 06:17:54 precise64 kernel: [  665.258284] Modules linked in: vboxsf(O) nfsd nfs lockd fscache auth_rpcgss nfs_acl sunrpc ext2 vesafb mac_hid psmouse i2c_piix4 serio_raw vboxguest(O) ppdev video parport_pc lp parport e1000
+Oct 16 06:17:54 precise64 kernel: [  665.258304] Pid: 1586, comm: cp Tainted: G        W  O 3.2.0-23-generic #36-Ubuntu
+Oct 16 06:17:54 precise64 kernel: [  665.258309] Call Trace:
+Oct 16 06:17:54 precise64 kernel: [  665.258316]  [<ffffffff8106712f>] warn_slowpath_common+0x7f/0xc0
+Oct 16 06:17:54 precise64 kernel: [  665.258323]  [<ffffffff8106718a>] warn_slowpath_null+0x1a/0x20
+Oct 16 06:17:54 precise64 kernel: [  665.258330]  [<ffffffff8118d05f>] d_set_d_op+0x9f/0xb0
+Oct 16 06:17:54 precise64 kernel: [  665.258338]  [<ffffffffa01b134d>] sf_instantiate.isra.1+0xcd/0x180 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258346]  [<ffffffffa01b15af>] sf_create_aux+0x1af/0x250 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258354]  [<ffffffffa01b1683>] sf_create+0x13/0x20 [vboxsf]
+Oct 16 06:17:54 precise64 kernel: [  665.258361]  [<ffffffff811843a4>] vfs_create+0xb4/0x120
+Oct 16 06:17:54 precise64 kernel: [  665.258368]  [<ffffffff81185f79>] do_last+0x5c9/0x730
+Oct 16 06:17:54 precise64 kernel: [  665.258375]  [<ffffffff81187481>] path_openat+0xd1/0x3f0
+Oct 16 06:17:54 precise64 kernel: [  665.258381]  [<ffffffff81182dc5>] ? putname+0x35/0x50
+Oct 16 06:17:54 precise64 kernel: [  665.258389]  [<ffffffff811878c2>] do_filp_open+0x42/0xa0
+Oct 16 06:17:54 precise64 kernel: [  665.258397]  [<ffffffff81318ce1>] ? strncpy_from_user+0x31/0x40
+Oct 16 06:17:54 precise64 kernel: [  665.258404]  [<ffffffff81182c0a>] ? do_getname+0x10a/0x180
+Oct 16 06:17:54 precise64 kernel: [  665.258411]  [<ffffffff8165c46e>] ? _raw_spin_lock+0xe/0x20
+Oct 16 06:17:54 precise64 kernel: [  665.258418]  [<ffffffff81194b67>] ? alloc_fd+0xf7/0x150
+Oct 16 06:17:54 precise64 kernel: [  665.258425]  [<ffffffff81176f6d>] do_sys_open+0xed/0x220
+Oct 16 06:17:54 precise64 kernel: [  665.258431]  [<ffffffff811770c0>] sys_open+0x20/0x30
+Oct 16 06:17:54 precise64 kernel: [  665.258438]  [<ffffffff81664a82>] system_call_fastpath+0x16/0x1b
+Oct 16 06:17:54 precise64 kernel: [  665.258444] ---[ end trace 23f8f93b80804ea6 ]---
+Oct 16 06:25:01 precise64 CRON[1596]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Oct 16 06:32:04 precise64 kernel: Kernel logging (proc) stopped.
+Oct 16 06:32:04 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="716" x-info="http://www.rsyslog.com"] exiting on signal 15.
+Oct 16 06:32:05 precise64 kernel: imklog 5.8.6, log source = /proc/kmsg started.
+Oct 16 06:32:05 precise64 rsyslogd: [origin software="rsyslogd" swVersion="5.8.6" x-pid="1830" x-info="http://www.rsyslog.com"] start
+Oct 16 06:32:05 precise64 rsyslogd: rsyslogd's groupid changed to 103
+Oct 16 06:32:05 precise64 rsyslogd: rsyslogd's userid changed to 101
+Oct 16 06:32:05 precise64 rsyslogd-2039: Could not open output pipe '/dev/xconsole' [try http://www.rsyslog.com/e/2039 ]
+Oct 16 06:32:17 localhost haproxy[1454]: 192.168.1.1:41460 [16/Oct/2015:06:32:17.887] appname appname/web01 0/0/22/2/25 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/index.html HTTP/1.1"
+Oct 16 06:32:17 localhost haproxy[1454]: 192.168.1.1:41461 [16/Oct/2015:06:32:17.944] appname appname/web01 0/0/7/15/23 304 175 - - --VN 4/4/4/4/0 0/0 "GET /gardenwalkthrough/css/style.css HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41464 [16/Oct/2015:06:32:17.944] appname appname/web01 7/0/4/46/59 404 482 - - --VN 3/3/3/3/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41463 [16/Oct/2015:06:32:17.944] appname appname/web01 0/0/7/50/59 404 477 - - --VN 2/2/2/2/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41465 [16/Oct/2015:06:32:17.945] appname appname/web01 0/0/6/50/60 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41462 [16/Oct/2015:06:32:17.944] appname appname/web01 0/0/7/51/74 404 471 - - --VN 0/0/0/0/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41469 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/1/7/10 304 152 - - --VN 5/5/5/5/0 0/0 "GET /gardenwalkthrough/images/gardening3.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41468 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/1/7/11 304 152 - - --VN 4/4/4/4/0 0/0 "GET /gardenwalkthrough/images/gardening2.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41466 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/1/7/13 304 153 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/gardening1.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41467 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/1/7/16 304 152 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/logo.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41470 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/2/6/16 304 151 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/gardening4.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41471 [16/Oct/2015:06:32:18.019] appname appname/web01 0/0/2/6/19 304 152 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/garden1.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41473 [16/Oct/2015:06:32:18.040] appname appname/web01 0/0/0/2/9 304 152 - - --VN 5/5/3/3/0 0/0 "GET /gardenwalkthrough/images/bg-body.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41474 [16/Oct/2015:06:32:18.040] appname appname/web01 0/0/0/3/9 304 151 - - --VN 4/4/2/2/0 0/0 "GET /gardenwalkthrough/images/separator1.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41475 [16/Oct/2015:06:32:18.040] appname appname/web01 9/0/1/3/16 304 151 - - --VN 5/5/3/3/0 0/0 "GET /gardenwalkthrough/images/interface.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41477 [16/Oct/2015:06:32:18.040] appname appname/web01 10/0/1/2/17 304 152 - - --VN 4/4/2/2/0 0/0 "GET /gardenwalkthrough/images/garden2.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41478 [16/Oct/2015:06:32:18.040] appname appname/web01 10/0/1/2/20 304 152 - - --VN 3/3/1/1/0 0/0 "GET /gardenwalkthrough/images/garden3.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41476 [16/Oct/2015:06:32:18.040] appname appname/web01 9/0/2/2/20 304 151 - - --VN 2/2/0/0/0 0/0 "GET /gardenwalkthrough/images/bg-description.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41479 [16/Oct/2015:06:32:18.057] appname appname/web01 3/0/2/4/12 304 152 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/garden4.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41480 [16/Oct/2015:06:32:18.057] appname appname/web01 3/0/2/4/12 304 152 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/gardening5.jpg HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41482 [16/Oct/2015:06:32:18.064] appname appname/web01 2/0/2/5/13 304 151 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/icons.png HTTP/1.1"
+Oct 16 06:32:18 localhost haproxy[1454]: 192.168.1.1:41481 [16/Oct/2015:06:32:18.064] appname appname/web01 2/0/2/5/16 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41485 [16/Oct/2015:06:32:22.406] appname appname/web01 14/0/1/9/25 304 175 - - --VN 5/5/0/0/0 0/0 "GET /gardenwalkthrough/ HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41487 [16/Oct/2015:06:32:22.407] appname appname/web01 49/0/8/12/79 404 471 - - --VN 4/4/3/3/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41486 [16/Oct/2015:06:32:22.407] appname appname/web01 47/0/1/23/79 404 482 - - --VN 3/3/2/2/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41489 [16/Oct/2015:06:32:22.407] appname appname/web01 51/0/6/12/79 404 479 - - --VN 2/2/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41488 [16/Oct/2015:06:32:22.407] appname appname/web01 50/0/7/14/83 404 477 - - --VN 1/1/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:22 localhost haproxy[1454]: 192.168.1.1:41490 [16/Oct/2015:06:32:22.407] appname appname/web01 87/0/1/4/97 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:32:28 localhost haproxy[1454]: 192.168.1.1:41498 [16/Oct/2015:06:32:28.065] appname appname/web01 2/0/3/6/16 304 173 - - --VN 5/5/0/0/0 0/0 "GET / HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41499 [16/Oct/2015:06:32:28.065] appname appname/web01 5117/0/1/3/5126 301 540 - - --VN 5/5/0/0/0 0/0 "GET /gardenwalkthrough HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41500 [16/Oct/2015:06:32:28.065] appname appname/web01 5152/0/1/5/5162 404 471 - - --VN 4/4/3/3/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41502 [16/Oct/2015:06:32:28.065] appname appname/web01 5153/0/2/3/5163 404 477 - - --VN 3/3/2/2/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41503 [16/Oct/2015:06:32:28.065] appname appname/web01 5153/0/2/3/5163 404 479 - - --VN 2/2/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41501 [16/Oct/2015:06:32:28.065] appname appname/web01 5153/0/2/3/5164 404 482 - - --VN 1/1/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:33 localhost haproxy[1454]: 192.168.1.1:41505 [16/Oct/2015:06:32:33.181] appname appname/web01 51/0/1/4/65 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41511 [16/Oct/2015:06:32:35.601] appname appname/web01 0/0/1/1/4 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/plants.html HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41514 [16/Oct/2015:06:32:35.632] appname appname/web01 0/0/1/5/17 404 482 - - --VN 3/3/3/3/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41515 [16/Oct/2015:06:32:35.632] appname appname/web01 0/0/1/5/17 404 479 - - --VN 2/2/2/2/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41512 [16/Oct/2015:06:32:35.632] appname appname/web01 0/0/1/7/18 404 471 - - --VN 1/1/1/1/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41513 [16/Oct/2015:06:32:35.632] appname appname/web01 0/0/1/7/18 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41516 [16/Oct/2015:06:32:35.663] appname appname/web01 0/0/5/3/9 304 152 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/plants1.jpg HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41517 [16/Oct/2015:06:32:35.663] appname appname/web01 0/0/5/3/10 304 152 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/plants2.jpg HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41518 [16/Oct/2015:06:32:35.663] appname appname/web01 0/0/5/3/10 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/plants3.jpg HTTP/1.1"
+Oct 16 06:32:35 localhost haproxy[1454]: 192.168.1.1:41519 [16/Oct/2015:06:32:35.663] appname appname/web01 0/0/5/5/15 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41520 [16/Oct/2015:06:32:37.669] appname appname/web01 0/0/0/2/4 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/about.html HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41522 [16/Oct/2015:06:32:37.699] appname appname/web01 0/0/2/2/6 404 471 - - --VN 3/3/3/3/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41521 [16/Oct/2015:06:32:37.699] appname appname/web01 0/0/1/3/7 404 482 - - --VN 2/2/2/2/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41524 [16/Oct/2015:06:32:37.699] appname appname/web01 1/0/1/4/8 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41523 [16/Oct/2015:06:32:37.699] appname appname/web01 0/0/2/4/9 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41525 [16/Oct/2015:06:32:37.709] appname appname/web01 1/0/0/3/6 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:32:37 localhost haproxy[1454]: 192.168.1.1:41526 [16/Oct/2015:06:32:37.730] appname appname/web01 0/0/1/11/20 404 479 - - --VN 0/0/0/0/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41527 [16/Oct/2015:06:32:39.238] appname appname/web01 0/0/1/21/25 200 3816 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/news.html HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41530 [16/Oct/2015:06:32:39.284] appname appname/web01 3/0/1/2/16 404 482 - - --VN 3/3/3/3/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41528 [16/Oct/2015:06:32:39.284] appname appname/web01 3/0/1/2/16 404 471 - - --VN 2/2/2/2/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41531 [16/Oct/2015:06:32:39.285] appname appname/web01 3/0/1/2/15 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41529 [16/Oct/2015:06:32:39.284] appname appname/web01 3/0/1/3/16 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41533 [16/Oct/2015:06:32:39.321] appname appname/web01 0/0/5/2/11 404 481 - - --VN 1/1/1/1/0 0/0 "GET /images/website/thumbs/31_2.png HTTP/1.1"
+Oct 16 06:32:39 localhost haproxy[1454]: 192.168.1.1:41532 [16/Oct/2015:06:32:39.321] appname appname/web01 0/0/5/20/36 200 86923 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/gardening6.jpg HTTP/1.1"
+Oct 16 06:42:35 localhost haproxy[1454]: 192.168.1.1:41584 [16/Oct/2015:06:42:35.945] appname appname/<NOSRV> -1/-1/-1/-1/0 401 262 - - PRNN 0/0/0/0/0 0/0 "GET /haproxy?stats HTTP/1.1"
+Oct 16 06:42:59 localhost haproxy[1454]: 192.168.1.1:41587 [16/Oct/2015:06:42:59.944] appname appname/<STATS> 0/-1/-1/-1/17 200 9576 - - PRNN 0/0/0/0/0 0/0 "GET /haproxy?stats HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41610 [16/Oct/2015:06:43:50.013] appname appname/web02 0/0/5/0/5 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/ HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41613 [16/Oct/2015:06:43:50.090] appname appname/web02 0/0/1/12/16 404 482 - - --VN 2/2/2/2/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41611 [16/Oct/2015:06:43:50.090] appname appname/web02 0/0/1/12/16 404 471 - - --VN 1/1/1/1/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41612 [16/Oct/2015:06:43:50.090] appname appname/web02 0/0/1/14/23 404 477 - - --VN 3/3/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41616 [16/Oct/2015:06:43:50.113] appname appname/web02 0/0/8/3/13 304 175 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/css/style.css HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41614 [16/Oct/2015:06:43:50.113] appname appname/web02 0/0/8/2/26 404 479 - - --VN 7/7/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41615 [16/Oct/2015:06:43:50.113] appname appname/web02 0/0/8/2/26 404 481 - - --VN 6/6/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41619 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/3/23 304 152 - - --VN 9/9/5/5/0 0/0 "GET /gardenwalkthrough/images/gardening3.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41620 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/3/23 304 151 - - --VN 8/8/4/4/0 0/0 "GET /gardenwalkthrough/images/gardening4.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41621 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/3/23 304 152 - - --VN 7/7/3/3/0 0/0 "GET /gardenwalkthrough/images/garden1.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41622 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/3/23 304 152 - - --VN 6/6/2/2/0 0/0 "GET /gardenwalkthrough/images/garden2.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41617 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/3/23 304 153 - - --VN 5/5/1/1/0 0/0 "GET /gardenwalkthrough/images/gardening1.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41618 [16/Oct/2015:06:43:50.140] appname appname/web02 14/0/3/4/23 304 152 - - --VN 4/4/0/0/0 0/0 "GET /gardenwalkthrough/images/gardening2.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41626 [16/Oct/2015:06:43:50.164] appname appname/web02 0/0/3/4/8 304 152 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/gardening5.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41624 [16/Oct/2015:06:43:50.164] appname appname/web02 0/0/3/4/10 304 152 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/garden3.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41625 [16/Oct/2015:06:43:50.164] appname appname/web02 0/0/3/4/10 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/garden4.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41623 [16/Oct/2015:06:43:50.164] appname appname/web02 0/0/3/4/10 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41627 [16/Oct/2015:06:43:50.214] appname appname/web02 0/0/0/16/17 404 482 - - --VN 0/0/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41628 [16/Oct/2015:06:43:50.245] appname appname/web02 1/0/1/3/8 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41629 [16/Oct/2015:06:43:50.248] appname appname/web02 0/0/1/2/5 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41633 [16/Oct/2015:06:43:50.306] appname appname/web02 0/0/3/0/6 304 151 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/interface.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41630 [16/Oct/2015:06:43:50.301] appname appname/web02 0/0/1/3/12 304 152 - - --VN 4/4/2/2/0 0/0 "GET /gardenwalkthrough/images/logo.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41631 [16/Oct/2015:06:43:50.302] appname appname/web02 3/0/3/2/11 304 152 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/bg-body.jpg HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41632 [16/Oct/2015:06:43:50.306] appname appname/web02 0/0/3/3/9 304 151 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/bg-description.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41634 [16/Oct/2015:06:43:50.313] appname appname/web02 0/0/1/2/6 304 151 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/separator1.png HTTP/1.1"
+Oct 16 06:43:50 localhost haproxy[1454]: 192.168.1.1:41635 [16/Oct/2015:06:43:50.313] appname appname/web02 0/0/1/2/6 304 151 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/icons.png HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41636 [16/Oct/2015:06:44:10.766] appname appname/web02 0/0/0/30/32 200 3765 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/about.html HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41637 [16/Oct/2015:06:44:10.846] appname appname/web02 0/0/1/4/8 404 471 - - --VN 2/2/2/2/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41639 [16/Oct/2015:06:44:10.852] appname appname/web02 0/0/3/3/6 404 482 - - --VN 1/1/1/1/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41638 [16/Oct/2015:06:44:10.852] appname appname/web02 0/0/2/4/7 404 477 - - --VN 2/2/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41642 [16/Oct/2015:06:44:10.860] appname appname/web02 0/0/1/4/7 404 481 - - --VN 1/1/1/1/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41641 [16/Oct/2015:06:44:10.860] appname appname/web02 0/0/1/5/7 404 479 - - --VN 0/0/0/0/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41643 [16/Oct/2015:06:44:10.930] appname appname/web02 1/0/0/3/5 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:44:10 localhost haproxy[1454]: 192.168.1.1:41644 [16/Oct/2015:06:44:10.994] appname appname/web02 0/0/0/3/4 404 482 - - --VN 0/0/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:44:11 localhost haproxy[1454]: 192.168.1.1:41645 [16/Oct/2015:06:44:11.002] appname appname/web02 0/0/0/6/6 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:44:11 localhost haproxy[1454]: 192.168.1.1:41646 [16/Oct/2015:06:44:11.003] appname appname/web02 0/0/0/4/5 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 06:44:18 localhost haproxy[1454]: 192.168.1.1:41649 [16/Oct/2015:06:44:18.377] appname appname/<STATS> 0/-1/-1/-1/1 200 9581 - - PRNN 0/0/0/0/0 0/0 "GET /haproxy?stats HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41650 [16/Oct/2015:06:44:28.547] appname appname/web02 0/0/0/1/2 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/gardens.html HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41652 [16/Oct/2015:06:44:28.579] appname appname/web02 0/0/1/2/6 404 477 - - --VN 2/2/2/2/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41651 [16/Oct/2015:06:44:28.579] appname appname/web02 0/0/1/2/6 404 471 - - --VN 1/1/1/1/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41653 [16/Oct/2015:06:44:28.580] appname appname/web02 0/0/2/3/7 404 482 - - --VN 2/2/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41656 [16/Oct/2015:06:44:28.588] appname appname/web02 0/0/1/3/5 404 481 - - --VN 1/1/1/1/0 0/0 "GET /images/website/thumbs/31_2.png HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41655 [16/Oct/2015:06:44:28.588] appname appname/web02 0/0/1/3/5 404 479 - - --VN 0/0/0/0/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41658 [16/Oct/2015:06:44:28.603] appname appname/web02 0/0/1/1/2 304 152 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/garden6.jpg HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41659 [16/Oct/2015:06:44:28.603] appname appname/web02 0/0/1/7/12 304 152 - - --VN 2/2/1/1/0 0/0 "GET /gardenwalkthrough/images/garden7.jpg HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41657 [16/Oct/2015:06:44:28.603] appname appname/web02 0/0/1/7/12 304 152 - - --VN 1/1/0/0/0 0/0 "GET /gardenwalkthrough/images/garden5.jpg HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41660 [16/Oct/2015:06:44:28.612] appname appname/web02 2/0/5/2/10 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41661 [16/Oct/2015:06:44:28.663] appname appname/web02 0/0/0/2/2 404 482 - - --VN 0/0/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41662 [16/Oct/2015:06:44:28.669] appname appname/web02 0/0/0/4/4 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 06:44:28 localhost haproxy[1454]: 192.168.1.1:41663 [16/Oct/2015:06:44:28.671] appname appname/web02 0/0/2/4/8 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/31_2.png HTTP/1.1"
+Oct 16 06:44:34 localhost haproxy[1454]: 192.168.1.1:41666 [16/Oct/2015:06:44:34.505] appname appname/<STATS> 0/-1/-1/-1/0 200 9633 - - PRNN 0/0/0/0/0 0/0 "GET /haproxy?stats HTTP/1.1"
+Oct 16 07:01:51 localhost haproxy[1454]: 192.168.1.1:41692 [16/Oct/2015:07:01:51.213] appname appname/web02 0/0/3/0/4 304 173 - - --VN 0/0/0/0/0 0/0 "GET / HTTP/1.1"
+Oct 16 07:01:59 localhost haproxy[1454]: 192.168.1.1:41693 [16/Oct/2015:07:01:59.890] appname appname/web02 0/0/3/0/5 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/ HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41696 [16/Oct/2015:07:02:00.000] appname appname/web02 0/0/0/5/5 404 477 - - --VN 3/3/3/3/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41697 [16/Oct/2015:07:02:00.001] appname appname/web02 0/0/0/4/7 404 482 - - --VN 8/8/2/2/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41695 [16/Oct/2015:07:02:00.000] appname appname/web02 0/0/0/5/8 404 471 - - --VN 7/7/1/1/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41694 [16/Oct/2015:07:01:59.999] appname appname/web02 0/0/3/4/11 304 175 - - --VN 6/6/0/0/0 0/0 "GET /gardenwalkthrough/css/style.css HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41698 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/2/7 404 479 - - --VN 5/5/5/5/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41699 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/3/10 304 153 - - --VN 5/5/5/5/0 0/0 "GET /gardenwalkthrough/images/gardening1.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41700 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/4/10 304 152 - - --VN 4/4/4/4/0 0/0 "GET /gardenwalkthrough/images/gardening2.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41701 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/6/11 304 152 - - --VN 5/5/5/5/0 0/0 "GET /gardenwalkthrough/images/gardening3.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41704 [16/Oct/2015:07:02:00.018] appname appname/web02 0/0/1/12/15 304 152 - - --VN 4/4/4/4/0 0/0 "GET /gardenwalkthrough/images/garden3.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41705 [16/Oct/2015:07:02:00.020] appname appname/web02 0/0/10/2/15 304 152 - - --VN 3/3/3/3/0 0/0 "GET /gardenwalkthrough/images/gardening5.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41706 [16/Oct/2015:07:02:00.020] appname appname/web02 0/0/10/2/15 404 481 - - --VN 2/2/2/2/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41703 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/19/26 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/garden1.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41702 [16/Oct/2015:07:02:00.009] appname appname/web02 0/0/4/19/27 304 151 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/gardening4.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41707 [16/Oct/2015:07:02:00.058] appname appname/web02 0/0/0/2/9 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/garden2.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41708 [16/Oct/2015:07:02:00.059] appname appname/web02 0/0/8/2/11 304 152 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/garden4.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41709 [16/Oct/2015:07:02:00.124] appname appname/web02 0/0/0/4/5 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41710 [16/Oct/2015:07:02:00.205] appname appname/web02 0/0/1/1/3 404 482 - - --VN 0/0/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41711 [16/Oct/2015:07:02:00.212] appname appname/web02 0/0/0/3/5 404 479 - - --VN 2/2/2/2/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41712 [16/Oct/2015:07:02:00.214] appname appname/web02 0/0/0/2/7 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/logo.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41713 [16/Oct/2015:07:02:00.216] appname appname/web02 0/0/0/5/7 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41714 [16/Oct/2015:07:02:00.227] appname appname/web02 0/0/0/5/6 304 151 - - --VN 2/2/2/2/0 0/0 "GET /gardenwalkthrough/images/bg-description.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41715 [16/Oct/2015:07:02:00.233] appname appname/web02 0/0/1/2/4 304 151 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/separator1.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41716 [16/Oct/2015:07:02:00.233] appname appname/web02 0/0/1/2/4 304 151 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/icons.png HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41717 [16/Oct/2015:07:02:00.269] appname appname/web02 0/0/1/1/4 304 152 - - --VN 1/1/1/1/0 0/0 "GET /gardenwalkthrough/images/bg-body.jpg HTTP/1.1"
+Oct 16 07:02:00 localhost haproxy[1454]: 192.168.1.1:41718 [16/Oct/2015:07:02:00.269] appname appname/web02 0/0/1/1/4 304 151 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/images/interface.png HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41719 [16/Oct/2015:07:02:14.841] appname appname/web02 0/0/0/1/2 304 175 - - --VN 0/0/0/0/0 0/0 "GET /gardenwalkthrough/about.html HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41720 [16/Oct/2015:07:02:14.885] appname appname/web02 0/0/1/2/4 404 471 - - --VN 2/2/2/2/0 0/0 "GET /shared/previews.css HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41722 [16/Oct/2015:07:02:14.888] appname appname/web02 0/0/0/10/10 404 482 - - --VN 1/1/1/1/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41721 [16/Oct/2015:07:02:14.887] appname appname/web02 0/0/1/11/13 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41723 [16/Oct/2015:07:02:14.901] appname appname/web02 0/0/0/3/4 404 479 - - --VN 1/1/1/1/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41724 [16/Oct/2015:07:02:14.901] appname appname/web02 0/0/0/3/4 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41725 [16/Oct/2015:07:02:14.931] appname appname/web02 0/0/1/3/7 404 477 - - --VN 0/0/0/0/0 0/0 "GET /js/jquery/jquery-1.11.0.min.js HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41726 [16/Oct/2015:07:02:14.940] appname appname/web02 0/0/0/2/3 404 482 - - --VN 0/0/0/0/0 0/0 "GET /js/xenforo/xenforo.js%3F_v=4d960095 HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41727 [16/Oct/2015:07:02:14.980] appname appname/web02 1/0/0/2/5 404 479 - - --VN 1/1/0/0/0 0/0 "GET /images/website/editor/0_2.png HTTP/1.1"
+Oct 16 07:02:14 localhost haproxy[1454]: 192.168.1.1:41728 [16/Oct/2015:07:02:14.981] appname appname/web02 4/0/6/1/11 404 481 - - --VN 0/0/0/0/0 0/0 "GET /images/website/thumbs/29_5.png HTTP/1.1"
+Oct 16 07:03:57 localhost haproxy[1454]: 192.168.1.1:41729 [16/Oct/2015:07:03:57.810] appname appname/<STATS> 0/-1/-1/-1/0 200 9631 - - PRNN 0/0/0/0/0 0/0 "GET /haproxy?stats HTTP/1.1"
