@@ -1,0 +1,14 @@
+$TTL 6h
+@	IN SOA	ns.gardenwalk.edu. admin.gardenwalk.edu. (
+			2014033110 ;serial
+			10800	;refresh
+			3600	;retry
+			604800	;expire
+			86400	;minimum 
+			)
+
+@		NS	ns.gardenwalk.edu.
+
+
+ns.gardenwalk.edu.	IN	A	192.168.1.11
+host.gardenwalk.edu.	IN	A	192.168.2.13
