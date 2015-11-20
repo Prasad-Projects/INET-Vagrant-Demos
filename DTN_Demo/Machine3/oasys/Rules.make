@@ -68,9 +68,9 @@ CXXFLAGS_NOWARN	= $(CFLAGS_NOWARN)
 CXXFLAGS        = $(CFLAGS)
 LDFLAGS         = -L. $(EXTRA_LDFLAGS)
 
-OASYS_LDFLAGS        = -L/vagrant/oasys/lib -loasys-1.6.0
+OASYS_LDFLAGS        = /vagrant/oasys/lib/liboasys-1.6.0.a
 OASYS_LDFLAGS_STATIC = /vagrant/oasys/lib/liboasys-1.6.0.a
-OASYS_COMPAT_LDFLAGS = -L/vagrant/oasys/lib -loasyscompat-1.6.0
+OASYS_COMPAT_LDFLAGS = /vagrant/oasys/lib/liboasyscompat-1.6.0.a
 
 #
 # Add a phony rule to make sure this isn't included before the default

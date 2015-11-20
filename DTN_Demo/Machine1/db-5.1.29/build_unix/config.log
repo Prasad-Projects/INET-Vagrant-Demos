@@ -2032,7 +2032,7 @@ configure:19534: $? = 0
 configure:19541: result: yes
 configure:19549: checking for getopt optreset variable
 configure:19566: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  >&5
-/tmp/cckxhW3N.o: In function `main':
+/tmp/cc1HS7Ij.o: In function `main':
 conftest.c:(.text.startup+0x2): undefined reference to `optreset'
 collect2: ld returned 1 exit status
 configure:19566: $? = 1
@@ -2538,7 +2538,7 @@ configure:22061: $? = 0
 configure:22061: result: yes
 configure:22089: checking for _fstati64
 configure:22089: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  -lpthread >&5
-/tmp/cca06Ztq.o: In function `main':
+/tmp/ccaO4Wq7.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `_fstati64'
 collect2: ld returned 1 exit status
 configure:22089: $? = 1
@@ -2672,7 +2672,7 @@ configure:22089: $? = 0
 configure:22089: result: yes
 configure:22089: checking for directio
 configure:22089: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  -lpthread >&5
-/tmp/ccWmzdbx.o: In function `main':
+/tmp/ccfI3Jmp.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `directio'
 collect2: ld returned 1 exit status
 configure:22089: $? = 1
@@ -2853,7 +2853,7 @@ configure:22089: $? = 0
 configure:22089: result: yes
 configure:22089: checking for pstat_getdynamic
 configure:22089: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  -lpthread >&5
-/tmp/cc4DI31B.o: In function `main':
+/tmp/ccrUEQry.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `pstat_getdynamic'
 collect2: ld returned 1 exit status
 configure:22089: $? = 1
@@ -3044,7 +3044,7 @@ configure:22089: $? = 0
 configure:22089: result: yes
 configure:22089: checking for yield
 configure:22089: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  -lpthread >&5
-/tmp/cc1MDwyE.o: In function `main':
+/tmp/ccvoN2HD.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `yield'
 collect2: ld returned 1 exit status
 configure:22089: $? = 1
@@ -3214,7 +3214,7 @@ configure:22105: $? = 0
 configure:22105: result: yes
 configure:22124: checking for clock_gettime
 configure:22124: cc -o conftest -O3   -D_GNU_SOURCE -D_REENTRANT  conftest.c  -lpthread >&5
-/tmp/ccd4KDl7.o: In function `main':
+/tmp/ccga6cL9.o: In function `main':
 conftest.c:(.text.startup+0x7): undefined reference to `clock_gettime'
 collect2: ld returned 1 exit status
 configure:22124: $? = 1
@@ -3712,6 +3712,7 @@ config.status:1318: creating clib_port.h
 config.status:1318: creating include.tcl
 config.status:1318: creating db.h
 config.status:1318: creating db_config.h
+config.status:1477: db_config.h is unchanged
 config.status:1491: executing libtool commands
 
 ## ---------------- ##
