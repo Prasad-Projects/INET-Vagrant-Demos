@@ -1,0 +1,5 @@
+repo: afc70143ade238cb0876e3867a599dd555cd105c
+node: 4cf51fd37f22dc35ee438b0ad0772cc79cc6fd5f
+branch: default
+latesttag: oasys-1.6.0
+latesttagdistance: 1
