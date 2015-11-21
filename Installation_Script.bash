@@ -20,8 +20,16 @@ then
 else
     echo "Directory not cloned from git, doing ....."
     git clone https://github.com/prasadtalasila/INET-Vagrant-Demos.git
+    cd ./INET-Vagrant-Demos/
     chmod +x *.bash
-    
+    cd SMP_Demo
+    chmod +x *.bash
+    cd ../Nonce_Demo
+    chmod +x *.bash
+    cd ../DTN_Demo
+    chmod +x *.bash
+    cd ../HAProxy_Demo
+    chmod +x *.bash    
 fi
 if [ -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
