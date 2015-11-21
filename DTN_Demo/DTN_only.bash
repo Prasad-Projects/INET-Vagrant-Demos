@@ -6,15 +6,7 @@
 #Author: Rachit Bhatia
 #Date: 21/11/2015
 #######################################################
-if [ -f /usr/bin/vagrant ]
-then
-    ../Installation_Script.bash
-fi
-if [ -d ../../INET-Vagrant-Demos/ ]
-then
-    ../Installation_Script.bash
-fi
-if [ -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
+if [ -f /usr/bin/vagrant -o -d ../../INET-Vagrant-Demos/ -o -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
     ../Installation_Script.bash
 fi
