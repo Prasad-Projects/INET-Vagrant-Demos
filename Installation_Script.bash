@@ -17,6 +17,16 @@ fi
 if [ -d ../INET-Vagrant-Demos/ ]
 then
     echo "Directory cloned from git"
+    chmod +x *.bash
+    cd SMP_Demo
+    chmod +x *.bash
+    cd ../Nonce_Demo
+    chmod +x *.bash
+    cd ../DTN_Demo
+    chmod +x *.bash
+    cd ../HAProxy_Demo
+    chmod +x *.bash
+    cd ..   
 else
     echo "Directory not cloned from git, doing ....."
     git clone https://github.com/prasadtalasila/INET-Vagrant-Demos.git
