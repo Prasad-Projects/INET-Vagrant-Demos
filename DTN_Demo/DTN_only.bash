@@ -6,8 +6,10 @@
 #Author: Rachit Bhatia
 #Date: 21/11/2015
 #######################################################
-if [ -f /usr/bin/vagrant -o -d ../../INET-Vagrant-Demos/ -o -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
+if [ -f /usr/bin/vagrant -a -d ../../INET-Vagrant-Demos/ -a -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
+    echo "Everything installed, proceeding with experiment"
+else
     echo "Something not installed, installing....."
     cd ..
     ./Installation_Script.bash
