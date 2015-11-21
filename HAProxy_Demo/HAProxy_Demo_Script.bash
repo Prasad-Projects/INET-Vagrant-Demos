@@ -9,7 +9,9 @@
 if [ -f /usr/bin/vagrant -o -d ../../INET-Vagrant-Demos/ -o -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
     echo "Something not installed, installing....."
-    ../Installation_Script.bash
+    cd ..
+    ./Installation_Script.bash
+    cd HAProxy_Demo
 fi
 
 cd LB

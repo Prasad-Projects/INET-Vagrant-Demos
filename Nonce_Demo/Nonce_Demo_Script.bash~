@@ -9,9 +9,7 @@
 if [ -f /usr/bin/vagrant -o -d ../../INET-Vagrant-Demos/ -o -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
     echo "Something not installed, installing....."
-    cd ..
-    ./Installation_Script.bash
-    cd Nonce_Demo
+    ../Installation_Script.bash
 fi
 
 vagrant up
