@@ -1,6 +1,14 @@
 #!/bin/bash
-
-wget https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4_x86_64.deb
-dpkg -i vagrant_1.7.4_x86_64.deb
+####################################
+#purpose: the shell script installs vagrant software and clones the INET TECH course demo scripts
+#Syntax: bash INET_Vagrant_Demos
+#		the script does not take any arguements
+#Inputs: 
+#Outputs:
+#Author:
+#Date:
+####################################
+wget -c https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4_x86_64.deb
+sudo dpkg -i vagrant_1.7.4_x86_64.deb
 git clone https://github.com/prasadtalasila/INET-Vagrant-Demos.git
 vagrant box add hashicorp/precise64

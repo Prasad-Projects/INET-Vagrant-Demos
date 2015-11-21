@@ -127,7 +127,7 @@ configure:3766: result: none needed
 configure:3825: checking for library containing pow
 configure:3856: gcc -o conftest    conftest.c  >&5
 conftest.c:17:6: warning: conflicting types for built-in function 'pow' [enabled by default]
-/tmp/ccgcw7XU.o: In function `main':
+/tmp/ccLQEDzD.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `pow'
 collect2: ld returned 1 exit status
 configure:3856: $? = 1
@@ -162,7 +162,7 @@ configure:3856: $? = 0
 configure:3873: result: -lm
 configure:3883: checking for library containing dlopen
 configure:3914: gcc -o conftest    conftest.c -lm  >&5
-/tmp/ccRAbYc8.o: In function `main':
+/tmp/ccbUhRw0.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 configure:3914: $? = 1
@@ -395,7 +395,7 @@ configure:4995: checking whether bluetooth support should be enabled
 configure:5003: result: try
 configure:5015: checking for library containing baswap
 configure:5046: gcc -o conftest    conftest.c  >&5
-/tmp/ccKU3qkY.o: In function `main':
+/tmp/ccYWug91.o: In function `main':
 conftest.c:(.text+0xa): undefined reference to `baswap'
 collect2: ld returned 1 exit status
 configure:5046: $? = 1
@@ -920,7 +920,7 @@ configure:5581: checking for readline/readline.h
 configure:5581: result: yes
 configure:5593: checking for library containing readline
 configure:5624: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/cctxf0Eb.o: In function `main':
+/tmp/ccAqH9yb.o: In function `main':
 /vagrant/oasys/conftest.cpp:33: undefined reference to `readline'
 collect2: ld returned 1 exit status
 configure:5624: $? = 1
@@ -966,7 +966,7 @@ configure:5624: $? = 0
 configure:5641: result: -lreadline
 configure:5671: checking whether readline is GNU readline or BSD editline
 configure:5694: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/cce2lu1B.o: In function `main':
+/tmp/ccNI4J0o.o: In function `main':
 /vagrant/oasys/conftest.cpp:33: undefined reference to `rl_extend_line_buffer'
 collect2: ld returned 1 exit status
 configure:5694: $? = 1
@@ -1014,7 +1014,7 @@ configure:5773: checking whether zlib support should be enabled
 configure:5781: result: try
 configure:5793: checking for library containing compress
 configure:5824: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/ccGnchDF.o: In function `main':
+/tmp/ccmtcOrw.o: In function `main':
 /vagrant/oasys/conftest.cpp:35: undefined reference to `compress'
 collect2: ld returned 1 exit status
 configure:5824: $? = 1
@@ -1809,7 +1809,7 @@ configure: failed program was:
 configure:6947: result: no
 configure:6964: checking for library containing ax25_config_load_ports
 configure:6995: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/ccX4fS1p.o: In function `main':
+/tmp/ccMSEa5j.o: In function `main':
 /vagrant/oasys/conftest.cpp:40: undefined reference to `ax25_config_load_ports'
 collect2: ld returned 1 exit status
 configure:6995: $? = 1
@@ -2179,7 +2179,7 @@ configure:8889: checking for ranlib
 configure:8916: result: ranlib
 configure:8950: checking for library containing pthread_create
 configure:8981: g++ -o conftest -g -O2   conftest.cpp  >&5
-/tmp/ccBWbxVh.o: In function `main':
+/tmp/ccBiSno3.o: In function `main':
 /vagrant/oasys/conftest.cpp:41: undefined reference to `pthread_create'
 collect2: ld returned 1 exit status
 configure:8981: $? = 1
@@ -2261,7 +2261,7 @@ configure:9404: $? = 0
 configure:9421: result: none required
 configure:9432: checking for library containing xdr_u_int64_t
 configure:9463: g++ -o conftest -g -O2   conftest.cpp -lpthread  >&5
-/tmp/ccmEfflX.o: In function `main':
+/tmp/ccBOQD5C.o: In function `main':
 /vagrant/oasys/conftest.cpp:46: undefined reference to `xdr_u_int64_t'
 collect2: ld returned 1 exit status
 configure:9463: $? = 1
