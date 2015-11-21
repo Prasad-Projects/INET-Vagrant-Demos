@@ -1,8 +1,15 @@
 #!/bin/bash
+#######################################################
+#Script to start the Nonce Demo - requires two SSHed terminals
+#Inputs:
+#Outputs:
+#Author: Rachit Bhatia
+#Date: 21/11/2015
+#######################################################
+if [ -f /usr/bin/vagrant -o -d ../../INET-Vagrant-Demos/ -o -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
+then
+    echo "Something not installed, installing....."
+    ../Installation_Script.bash
+fi
 
-wget https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4_x86_64.deb
-dpkg -i vagrant_1.7.4_x86_64.deb
-git clone https://github.com/prasadtalasila/INET-Vagrant-Demos.git
-vagrant box add hashicorp/precise64
-cd INET-Vagrant-Demos/Nonce\ Demo
 vagrant up
