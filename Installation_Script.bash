@@ -29,7 +29,8 @@ else
     cd ../DTN_Demo
     chmod +x *.bash
     cd ../HAProxy_Demo
-    chmod +x *.bash    
+    chmod +x *.bash
+    cd ..    
 fi
 if [ -d ~/.vagrant.d/boxes/hashicorp-VAGRANTSLASH-precise64/ ]
 then
