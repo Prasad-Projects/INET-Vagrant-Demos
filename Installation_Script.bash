@@ -12,7 +12,7 @@ then
 else
     echo "Vagrant not installed, installing ....."
     wget https://releases.hashicorp.com/vagrant/1.7.4/vagrant_1.7.4_x86_64.deb
-    dpkg -i vagrant_1.7.4_x86_64.deb
+    sudo dpkg -i vagrant_1.7.4_x86_64.deb
 fi
 if [ -d ../INET-Vagrant-Demos/ ]
 then
