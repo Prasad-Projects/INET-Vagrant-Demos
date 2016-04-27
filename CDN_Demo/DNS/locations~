@@ -1,3 +1,0 @@
-bind9 /etc/default/
-named.conf.options /etc/bind/
-named.conf.local /etc/bind
