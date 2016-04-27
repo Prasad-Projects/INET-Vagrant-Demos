@@ -1,0 +1,5 @@
+bind9 /etc/default/
+named.conf.options /etc/bind/
+named.conf.local /etc/bind/
+db.192.168	/etc/bind/
+db.gardenwalk.edu	/etc/bind/

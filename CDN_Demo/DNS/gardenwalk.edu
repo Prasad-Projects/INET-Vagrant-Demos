@@ -1,0 +1,23 @@
+;; `/etc/bind/db.example.com` - Forward lookup zone file for the TLD example.com
+;; For explanations: <http://blog.philippklaus.de/2011/04/get-your-own-dns-server-up-and-running-with-bind9-on-ubuntu-or-debian/>
+$ORIGIN gardenwalk.edu.
+$TTL 2D
+; The SOA Resource Record (in the following format:)
+;name [ttl] [class] rr      name-server           e-mail             ( [...] )
+@           IN      SOA     ns.gardenwalk.edu.       mail.gardenwalk.edu.  (
+                        2011041101      ; Serial (usually YYYYMMDDSS): increment after any change
+                                8H      ; Refresh (8 hours)
+                                2H      ; Retry (2 hours)
+                                4W      ; Expire (4 weeks)
+                                3H )    ; NX (3 hours) TTL Negativ Cache
+
+@                               IN      NS      ns.gardenwalk.edu.
+;;                                IN      A       192.168.1.10
+                                IN      A       192.168.1.12
+                                IN      A       192.168.2.13
+                                IN      A       192.168.1.14
+
+ns                              IN      A       192.168.1.11
+zone1                       	IN      A       192.168.1.12
+zone2                       	IN      A       192.168.2.13
+zone3                       	IN      A       192.168.1.14

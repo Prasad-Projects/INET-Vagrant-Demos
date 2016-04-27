@@ -1,0 +1,14 @@
+server {
+       listen 80;
+       server_name gardenwalk.edu;
+       root /var/www/gardenwalk.edu/web;
+       if ($http_host != "gardenwalk.edu") {
+                 rewrite ^ http://www.example.com$request_uri permanent;
+       }
+       index index.php index.html;
+
+       location / {
+                proxy_pass http://192.168.1.10:80;
+                include /etc/nginx/proxy_params;
+       }
+}
